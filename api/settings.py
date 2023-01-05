@@ -5,10 +5,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-f58s^&jw!gdu@!lwn@8ckqhi@9ytb%9ktt!gw4$6--()nk9ei_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -26,6 +22,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+       
+    'allauth',
+    'allauth.socialaccount',
+    'allauth.account',
+
+    'drf_yasg', #drf_yasg
+    'rest_framework', #djangorestframework
+    
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -105,8 +110,22 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-
+STATIC_ROOT = '/home/2023api/public/static'
+STATICFILES_DIRS = [
+        BASE_DIR
+        ]
+        
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+REST_FRAMEWORK = {
+               'DEFAULT_PERMISSION_CLASSES': [
+               'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+               ]
+  }
+
+AUTH_USER_MODEL = 'accounts.User'

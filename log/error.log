@@ -56,3 +56,720 @@ Traceback (most recent call last):
 NameError: name 'TypeError' is not defined
 [Thu Jan 05 18:02:28.191205 2023] [wsgi:error] [pid 1729:tid 140399444322048] [remote 211.246.68.92:4445] Not Found: /static/admin/css/fonts.css
 [Thu Jan 05 18:02:28.359697 2023] [wsgi:error] [pid 1729:tid 140399427536640] [remote 211.246.68.92:4445] Not Found: /favicon.ico
+[Thu Jan 05 18:45:11.240609 2023] [wsgi:error] [pid 1729:tid 140399427536640] [remote 66.249.66.141:55959] Not Found: /static/admin/css/fonts.css
+[Thu Jan 05 18:45:11.624244 2023] [wsgi:error] [pid 1729:tid 140399444322048] [remote 66.249.66.141:55959] Not Found: /static/admin/css/fonts.css
+[Thu Jan 05 18:45:24.821734 2023] [wsgi:error] [pid 1729:tid 140399427536640] [remote 66.249.66.139:37858] Not Found: /favicon.ico
+[Thu Jan 05 18:45:25.812471 2023] [wsgi:error] [pid 1729:tid 140399444322048] [remote 66.249.66.139:37858] Not Found: /favicon.ico
+[Thu Jan 05 19:35:12.221020 2023] [wsgi:error] [pid 1729:tid 140399444322048] [remote 211.246.68.92:4049] Not Found: /static/admin/css/fonts.css
+[Thu Jan 05 19:35:23.209551 2023] [wsgi:error] [pid 1729:tid 140399427536640] [remote 211.246.68.92:4054] Not Found: /api-auth
+Exception ignored in: <function Local.__del__ at 0x7fb142fd6b80>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Thu Jan 05 19:35:40.084065 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] mod_wsgi (pid=3738): Exception occurred processing WSGI script '/home/2023api/api/wsgi.py'.
+[Thu Jan 05 19:35:40.084715 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] Traceback (most recent call last):
+[Thu Jan 05 19:35:40.084755 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:40.084758 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = get_response(request)
+[Thu Jan 05 19:35:40.084762 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Thu Jan 05 19:35:40.084765 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = self.process_request(request)
+[Thu Jan 05 19:35:40.084769 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/middleware/common.py", line 53, in process_request
+[Thu Jan 05 19:35:40.084771 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     if self.should_redirect_with_slash(request):
+[Thu Jan 05 19:35:40.084775 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/middleware/common.py", line 70, in should_redirect_with_slash
+[Thu Jan 05 19:35:40.084777 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     if not is_valid_path(request.path_info, urlconf):
+[Thu Jan 05 19:35:40.084781 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 155, in is_valid_path
+[Thu Jan 05 19:35:40.084799 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return resolve(path, urlconf)
+[Thu Jan 05 19:35:40.084804 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:40.084805 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:40.084809 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:40.084811 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:40.084815 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:40.084816 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:40.084820 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:40.084822 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:40.084826 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:40.084827 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:40.084831 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:40.084833 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:40.084837 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:40.084838 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:40.084842 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:40.084846 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:40.084850 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:40.084853 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:40.084857 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:40.084861 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:40.084865 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:40.084867 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:40.084878 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:40.084883 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] 
+[Thu Jan 05 19:35:40.084885 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:40.084886 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] 
+[Thu Jan 05 19:35:40.084890 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] Traceback (most recent call last):
+[Thu Jan 05 19:35:40.084926 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:40.084928 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = get_response(request)
+[Thu Jan 05 19:35:40.084932 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:40.084934 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:40.084937 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:40.084939 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:40.084943 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:40.084944 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:40.084948 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:40.084950 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:40.084954 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:40.084956 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:40.084959 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:40.084961 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:40.084965 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:40.084966 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:40.084970 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:40.084972 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:40.084978 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:40.084980 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:40.084984 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:40.084986 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:40.084989 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:40.084991 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:40.084995 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:40.084996 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:40.085000 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:40.085002 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:40.085006 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:40.085007 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:40.085011 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:40.085013 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:40.085017 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:40.085020 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:40.085024 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:40.085028 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:40.085032 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:40.085035 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:40.085039 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:40.085041 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:40.085047 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:40.085054 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] 
+[Thu Jan 05 19:35:40.085056 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:40.085057 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] 
+[Thu Jan 05 19:35:40.085061 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] Traceback (most recent call last):
+[Thu Jan 05 19:35:40.085096 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:40.085098 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = get_response(request)
+[Thu Jan 05 19:35:40.085101 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:40.085103 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:40.085107 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:40.085109 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:40.085112 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:40.085114 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:40.085118 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:40.085119 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:40.085123 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:40.085125 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:40.085129 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:40.085130 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:40.085134 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:40.085136 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:40.085139 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:40.085141 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:40.085145 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:40.085148 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:40.085152 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:40.085154 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:40.085158 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:40.085159 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:40.085163 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:40.085165 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:40.085169 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:40.085170 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:40.085174 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:40.085176 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:40.085179 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:40.085181 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:40.085185 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:40.085188 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:40.085192 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:40.085196 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:40.085200 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:40.085203 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:40.085207 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:40.085209 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:40.085215 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:40.085219 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] 
+[Thu Jan 05 19:35:40.085221 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:40.085227 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] 
+[Thu Jan 05 19:35:40.085231 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] Traceback (most recent call last):
+[Thu Jan 05 19:35:40.085266 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 131, in __call__
+[Thu Jan 05 19:35:40.085268 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = self.get_response(request)
+[Thu Jan 05 19:35:40.085272 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 140, in get_response
+[Thu Jan 05 19:35:40.085274 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = self._middleware_chain(request)
+[Thu Jan 05 19:35:40.085277 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:40.085280 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:40.085284 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:40.085286 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:40.085290 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:40.085292 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:40.085296 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:40.085298 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:40.085302 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:40.085304 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:40.085308 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:40.085309 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:40.085313 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:40.085315 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:40.085318 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:40.085320 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:40.085326 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:40.085328 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:40.085331 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:40.085333 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:40.085337 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:40.085338 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:40.085342 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:40.085344 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:40.085347 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:40.085349 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:40.085353 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:40.085354 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:40.085358 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:40.085362 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:40.085366 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:40.085369 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:40.085373 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:40.085377 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:40.085380 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:40.085382 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:40.085388 2023] [wsgi:error] [pid 3738:tid 140394840061696] [remote 211.246.68.92:4055] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.957905 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] mod_wsgi (pid=3738): Exception occurred processing WSGI script '/home/2023api/api/wsgi.py'.
+[Thu Jan 05 19:35:50.958688 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.958737 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:50.958740 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = get_response(request)
+[Thu Jan 05 19:35:50.958744 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Thu Jan 05 19:35:50.958746 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     callback, callback_args, callback_kwargs = self.resolve_request(request)
+[Thu Jan 05 19:35:50.958750 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 313, in resolve_request
+[Thu Jan 05 19:35:50.958752 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolver.resolve(request.path_info)
+[Thu Jan 05 19:35:50.958756 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.958757 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.958761 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.958763 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.958767 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.958768 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.958772 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.958774 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.958778 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.958780 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.958784 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.958785 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.958789 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.958793 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.958797 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.958801 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.958805 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.958811 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.958815 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.958817 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.958826 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.958830 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.958832 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:50.958833 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.958837 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.958874 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:50.958876 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = get_response(request)
+[Thu Jan 05 19:35:50.958880 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:50.958881 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:50.958885 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:50.958887 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:50.958891 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:50.958893 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:50.958897 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:50.958898 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:50.958902 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:50.958904 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:50.958908 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:50.958909 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:50.958913 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:50.958917 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:50.958921 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:50.958923 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:50.958927 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:50.958929 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:50.958932 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.958934 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.958938 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.958940 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.958943 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.958945 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.958949 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.958951 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.958954 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.958956 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.958960 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.958962 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.958965 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.958969 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.958973 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.958977 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.958981 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.958985 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.958991 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.958992 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.958999 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.959003 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959005 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:50.959006 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959010 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.959046 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:50.959047 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = get_response(request)
+[Thu Jan 05 19:35:50.959051 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:50.959053 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:50.959057 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:50.959059 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:50.959062 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:50.959064 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:50.959068 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:50.959070 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:50.959073 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:50.959075 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:50.959079 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:50.959081 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:50.959084 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:50.959086 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:50.959092 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:50.959094 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:50.959098 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:50.959099 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:50.959103 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.959105 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.959109 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959110 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959114 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.959116 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.959120 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959121 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959125 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.959127 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.959130 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.959132 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.959136 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.959140 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.959144 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.959147 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.959151 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.959155 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.959159 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.959163 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.959169 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.959174 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959175 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:50.959177 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959180 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.959215 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:50.959217 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = get_response(request)
+[Thu Jan 05 19:35:50.959221 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:50.959223 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:50.959227 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:50.959228 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:50.959232 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:50.959234 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:50.959238 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:50.959239 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:50.959243 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:50.959245 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:50.959249 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:50.959250 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:50.959254 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:50.959256 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:50.959259 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:50.959264 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:50.959268 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:50.959270 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:50.959274 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.959275 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.959279 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959281 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959284 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.959286 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.959290 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959291 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959295 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.959297 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.959301 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.959302 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.959306 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.959310 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.959314 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.959318 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.959321 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.959325 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.959329 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.959331 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.959339 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.959343 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959345 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:50.959346 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959350 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.959385 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:50.959387 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = get_response(request)
+[Thu Jan 05 19:35:50.959391 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:50.959393 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:50.959397 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:50.959398 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:50.959402 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:50.959404 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:50.959408 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:50.959410 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:50.959414 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:50.959416 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:50.959420 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:50.959422 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:50.959426 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:50.959428 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:50.959433 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:50.959435 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:50.959441 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:50.959442 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:50.959446 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.959448 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.959452 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959453 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959457 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.959459 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.959463 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959464 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959468 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.959470 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.959474 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.959475 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.959479 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.959483 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.959486 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.959490 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.959494 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.959498 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.959502 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.959503 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.959509 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.959526 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959528 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:50.959530 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959533 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.959569 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:50.959571 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = get_response(request)
+[Thu Jan 05 19:35:50.959575 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:50.959576 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:50.959580 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:50.959582 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:50.959585 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:50.959587 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:50.959591 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:50.959593 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:50.959596 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:50.959598 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:50.959602 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:50.959603 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:50.959607 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:50.959609 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:50.959612 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:50.959614 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:50.959618 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:50.959622 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:50.959626 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.959627 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.959631 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959633 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959636 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.959638 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.959642 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959644 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959647 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.959649 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.959653 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.959654 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.959658 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.959662 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.959666 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.959669 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.959673 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.959677 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.959681 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.959682 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.959688 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.959693 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959696 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:50.959698 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959702 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.959737 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:50.959739 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = get_response(request)
+[Thu Jan 05 19:35:50.959742 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:50.959744 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:50.959748 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:50.959750 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:50.959753 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:50.959755 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:50.959759 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:50.959760 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:50.959764 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:50.959766 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:50.959769 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:50.959771 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:50.959775 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:50.959777 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:50.959780 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:50.959782 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:50.959786 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:50.959787 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:50.959793 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.959795 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.959799 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959800 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959804 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.959806 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.959809 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959811 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959815 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.959816 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.959820 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.959822 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.959826 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.959829 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.959833 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.959837 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.959841 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.959844 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.959848 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.959850 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.959855 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.959860 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959861 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:50.959863 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.959869 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.959904 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 19:35:50.959906 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = get_response(request)
+[Thu Jan 05 19:35:50.959910 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 136, in __call__
+[Thu Jan 05 19:35:50.959912 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response or self.get_response(request)
+[Thu Jan 05 19:35:50.959915 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:50.959917 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:50.959921 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:50.959922 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:50.959926 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:50.959928 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:50.959931 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:50.959933 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:50.959937 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:50.959938 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:50.959942 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:50.959944 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:50.959947 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:50.959949 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:50.959953 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:50.959954 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:50.959958 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.959963 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.959967 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959969 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959973 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.959974 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.959978 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.959980 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.959984 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.959985 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.959989 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.959990 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.959994 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.959998 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.960002 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.960006 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.960009 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.960013 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.960017 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.960018 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.960024 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+[Thu Jan 05 19:35:50.960029 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.960030 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] During handling of the above exception, another exception occurred:
+[Thu Jan 05 19:35:50.960032 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] 
+[Thu Jan 05 19:35:50.960035 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] Traceback (most recent call last):
+[Thu Jan 05 19:35:50.960073 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/wsgi.py", line 131, in __call__
+[Thu Jan 05 19:35:50.960075 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = self.get_response(request)
+[Thu Jan 05 19:35:50.960079 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 140, in get_response
+[Thu Jan 05 19:35:50.960081 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = self._middleware_chain(request)
+[Thu Jan 05 19:35:50.960084 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 57, in inner
+[Thu Jan 05 19:35:50.960086 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = response_for_exception(request, exc)
+[Thu Jan 05 19:35:50.960090 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 140, in response_for_exception
+[Thu Jan 05 19:35:50.960091 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     response = handle_uncaught_exception(
+[Thu Jan 05 19:35:50.960095 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 181, in handle_uncaught_exception
+[Thu Jan 05 19:35:50.960097 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return debug.technical_500_response(request, *exc_info)
+[Thu Jan 05 19:35:50.960100 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 66, in technical_500_response
+[Thu Jan 05 19:35:50.960102 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     html = reporter.get_traceback_html()
+[Thu Jan 05 19:35:50.960106 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 396, in get_traceback_html
+[Thu Jan 05 19:35:50.960107 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c = Context(self.get_traceback_data(), use_l10n=False)
+[Thu Jan 05 19:35:50.960111 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 381, in get_traceback_data
+[Thu Jan 05 19:35:50.960113 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     c["raising_view_name"] = get_caller(self.request)
+[Thu Jan 05 19:35:50.960116 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/debug.py", line 99, in get_caller
+[Thu Jan 05 19:35:50.960118 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     resolver_match = resolve(request.path)
+[Thu Jan 05 19:35:50.960122 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/base.py", line 24, in resolve
+[Thu Jan 05 19:35:50.960123 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return get_resolver(urlconf).resolve(path)
+[Thu Jan 05 19:35:50.960127 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 663, in resolve
+[Thu Jan 05 19:35:50.960129 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     for pattern in self.url_patterns:
+[Thu Jan 05 19:35:50.960135 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.960136 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.960140 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+[Thu Jan 05 19:35:50.960142 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+[Thu Jan 05 19:35:50.960145 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Thu Jan 05 19:35:50.960147 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     res = instance.__dict__[self.name] = self.func(instance)
+[Thu Jan 05 19:35:50.960151 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/env/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+[Thu Jan 05 19:35:50.960152 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return import_module(self.urlconf_name)
+[Thu Jan 05 19:35:50.960156 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+[Thu Jan 05 19:35:50.960158 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     return _bootstrap._gcd_import(name[level:], package, level)
+[Thu Jan 05 19:35:50.960161 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+[Thu Jan 05 19:35:50.960165 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[Thu Jan 05 19:35:50.960169 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[Thu Jan 05 19:35:50.960172 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[Thu Jan 05 19:35:50.960176 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+[Thu Jan 05 19:35:50.960180 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+[Thu Jan 05 19:35:50.960184 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]   File "/home/2023api/api/urls.py", line 21, in <module>
+[Thu Jan 05 19:35:50.960185 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060]     path('api-auth/', include('rest_framework.urls'))
+[Thu Jan 05 19:35:50.960191 2023] [wsgi:error] [pid 3738:tid 140394730956544] [remote 211.246.68.92:4060] NameError: name 'include' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fb0310dc940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Thu Jan 05 19:37:16.858852 2023] [wsgi:error] [pid 3961:tid 139923950110464] [remote 211.246.68.92:4067] Not Found: /
+[Thu Jan 05 19:37:25.790159 2023] [wsgi:error] [pid 3961:tid 139923832612608] [remote 211.246.68.92:4075] Not Found: /api-auth/
+[Thu Jan 05 19:37:35.129626 2023] [wsgi:error] [pid 3961:tid 139923950110464] [remote 211.246.68.92:4081] Not Found: /static/rest_framework/css/bootstrap.min.css
+[Thu Jan 05 19:37:35.169503 2023] [wsgi:error] [pid 3961:tid 139923832612608] [remote 211.246.68.92:4082] Not Found: /static/rest_framework/css/bootstrap-tweaks.css
+[Thu Jan 05 19:37:35.173368 2023] [wsgi:error] [pid 3961:tid 139923841005312] [remote 211.246.68.92:4084] Not Found: /static/rest_framework/css/default.css
+[Thu Jan 05 19:37:35.176960 2023] [wsgi:error] [pid 3961:tid 139923950110464] [remote 211.246.68.92:4083] Not Found: /static/rest_framework/css/prettify.css
+[Thu Jan 05 19:38:35.439798 2023] [wsgi:error] [pid 3961:tid 139923849398016] [remote 211.246.68.92:4105] Not Found: /api-auth/registration
+[Thu Jan 05 20:00:43.308116 2023] [wsgi:error] [pid 3961:tid 139923849398016] [remote 211.246.68.92:5217] Not Found: /static/admin/css/base.css
+[Thu Jan 05 20:00:43.337819 2023] [wsgi:error] [pid 3961:tid 139923950110464] [remote 211.246.68.92:5218] Not Found: /static/admin/css/dark_mode.css
+[Thu Jan 05 20:00:43.361683 2023] [wsgi:error] [pid 3961:tid 139923849398016] [remote 211.246.68.92:5219] Not Found: /static/admin/css/nav_sidebar.css
+[Thu Jan 05 20:00:43.365659 2023] [wsgi:error] [pid 3961:tid 139923832612608] [remote 211.246.68.92:5220] Not Found: /static/admin/css/responsive.css
+[Thu Jan 05 20:00:43.369218 2023] [wsgi:error] [pid 3961:tid 139923950110464] [remote 211.246.68.92:5221] Not Found: /static/admin/css/login.css
+[Thu Jan 05 20:00:43.535173 2023] [wsgi:error] [pid 3961:tid 139923841005312] [remote 211.246.68.92:5221] Not Found: /static/admin/js/nav_sidebar.js
+[Thu Jan 05 20:07:05.308671 2023] [wsgi:error] [pid 3961:tid 139923950110464] [remote 66.249.77.21:46314] Not Found: /register/
+[Thu Jan 05 20:07:06.305342 2023] [wsgi:error] [pid 3961:tid 139923841005312] [remote 66.249.77.19:59964] Not Found: /c/
+[Thu Jan 05 20:07:12.417704 2023] [wsgi:error] [pid 3961:tid 139923950110464] [remote 66.249.77.19:35131] Not Found: /favicon.ico
+[Thu Jan 05 20:07:14.634025 2023] [wsgi:error] [pid 3961:tid 139923841005312] [remote 66.249.77.21:56968] Not Found: /static/shuup/front/img/favicon.ico
+Exception ignored in: <function Local.__del__ at 0x7f428d534940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f428d534940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Thu Jan 05 11:16:49.582062 2023] [authz_core:error] [pid 5927:tid 139814313641728] [client 211.246.68.92:5291] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/base.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:16:49.633886 2023] [authz_core:error] [pid 5928:tid 139814271678208] [client 211.246.68.92:5294] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/dark_mode.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:16:49.634044 2023] [authz_core:error] [pid 5928:tid 139814271678208] [client 211.246.68.92:5293] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/nav_sidebar.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:16:49.634782 2023] [authz_core:error] [pid 5927:tid 139814305249024] [client 211.246.68.92:5295] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/login.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:16:49.634899 2023] [authz_core:error] [pid 5927:tid 139814296856320] [client 211.246.68.92:5292] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/responsive.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:16:49.760071 2023] [authz_core:error] [pid 5927:tid 139814288463616] [client 211.246.68.92:5295] AH01630: client denied by server configuration: /home/2023api/public/static/admin/js/nav_sidebar.js, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:00.346135 2023] [authz_core:error] [pid 5928:tid 139814330427136] [client 211.246.68.92:5301] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/base.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:00.391769 2023] [authz_core:error] [pid 5927:tid 139814238107392] [client 211.246.68.92:5303] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/dark_mode.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:00.398494 2023] [authz_core:error] [pid 5927:tid 139814229714688] [client 211.246.68.92:5304] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/login.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:00.398644 2023] [authz_core:error] [pid 5928:tid 139814296856320] [client 211.246.68.92:5302] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/nav_sidebar.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:00.399451 2023] [authz_core:error] [pid 5928:tid 139814187751168] [client 211.246.68.92:5305] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/responsive.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:00.399580 2023] [authz_core:error] [pid 5928:tid 139814322034432] [client 211.246.68.92:5301] AH01630: client denied by server configuration: /home/2023api/public/static/admin/js/nav_sidebar.js, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:02.030500 2023] [authz_core:error] [pid 5927:tid 139814212929280] [client 211.246.68.92:5304] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/login.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:02.030597 2023] [authz_core:error] [pid 5927:tid 139814221321984] [client 211.246.68.92:5303] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/responsive.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:02.030619 2023] [authz_core:error] [pid 5928:tid 139814280070912] [client 211.246.68.92:5301] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/dark_mode.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:02.030666 2023] [authz_core:error] [pid 5928:tid 139814238107392] [client 211.246.68.92:5302] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/nav_sidebar.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:02.030680 2023] [authz_core:error] [pid 5928:tid 139814288463616] [client 211.246.68.92:5305] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/base.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:17:02.063853 2023] [authz_core:error] [pid 5927:tid 139814204536576] [client 211.246.68.92:5306] AH01630: client denied by server configuration: /home/2023api/public/static/admin/js/nav_sidebar.js, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:24:20.243644 2023] [authz_core:error] [pid 5928:tid 139814179358464] [client 211.246.68.92:5361] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/login.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:24:20.243778 2023] [authz_core:error] [pid 5928:tid 139814179358464] [client 211.246.68.92:5360] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/base.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:24:20.243896 2023] [authz_core:error] [pid 5927:tid 139814162573056] [client 211.246.68.92:5359] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/dark_mode.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:24:20.243978 2023] [authz_core:error] [pid 5927:tid 139814162573056] [client 211.246.68.92:5363] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/nav_sidebar.css, referer: http://holyflex.com/admin/login/?next=/admin/
+[Thu Jan 05 11:24:20.244057 2023] [authz_core:error] [pid 5927:tid 139814162573056] [client 211.246.68.92:5362] AH01630: client denied by server configuration: /home/2023api/public/static/admin/css/responsive.css, referer: http://holyflex.com/admin/login/?next=/admin/
+Exception ignored in: <function Local.__del__ at 0x7f290c76f940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f290c76f940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Thu Jan 05 20:37:53.597929 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803] Internal Server Error: /admin/login/
+[Thu Jan 05 20:37:53.597978 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803] Traceback (most recent call last):
+[Thu Jan 05 20:37:53.597980 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+[Thu Jan 05 20:37:53.597982 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return self.cursor.execute(sql, params)
+[Thu Jan 05 20:37:53.597983 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+[Thu Jan 05 20:37:53.597985 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return Database.Cursor.execute(self, query, params)
+[Thu Jan 05 20:37:53.597987 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803] sqlite3.OperationalError: attempt to write a readonly database
+[Thu Jan 05 20:37:53.597988 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803] 
+[Thu Jan 05 20:37:53.597990 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803] The above exception was the direct cause of the following exception:
+[Thu Jan 05 20:37:53.597991 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803] 
+[Thu Jan 05 20:37:53.597993 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803] Traceback (most recent call last):
+[Thu Jan 05 20:37:53.597995 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 20:37:53.597996 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     response = get_response(request)
+[Thu Jan 05 20:37:53.597998 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Thu Jan 05 20:37:53.598000 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Thu Jan 05 20:37:53.598001 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+[Thu Jan 05 20:37:53.598003 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return bound_method(*args, **kwargs)
+[Thu Jan 05 20:37:53.598005 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+[Thu Jan 05 20:37:53.598006 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     response = view_func(request, *args, **kwargs)
+[Thu Jan 05 20:37:53.598017 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 441, in login
+[Thu Jan 05 20:37:53.598019 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return LoginView.as_view(**defaults)(request)
+[Thu Jan 05 20:37:53.598020 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+[Thu Jan 05 20:37:53.598021 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return self.dispatch(request, *args, **kwargs)
+[Thu Jan 05 20:37:53.598023 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+[Thu Jan 05 20:37:53.598024 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return bound_method(*args, **kwargs)
+[Thu Jan 05 20:37:53.598026 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+[Thu Jan 05 20:37:53.598027 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return view(request, *args, **kwargs)
+[Thu Jan 05 20:37:53.598028 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+[Thu Jan 05 20:37:53.598030 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return bound_method(*args, **kwargs)
+[Thu Jan 05 20:37:53.598031 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+[Thu Jan 05 20:37:53.598033 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     response = view_func(request, *args, **kwargs)
+[Thu Jan 05 20:37:53.598034 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+[Thu Jan 05 20:37:53.598035 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return bound_method(*args, **kwargs)
+[Thu Jan 05 20:37:53.598037 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+[Thu Jan 05 20:37:53.598047 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     response = view_func(request, *args, **kwargs)
+[Thu Jan 05 20:37:53.598049 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+[Thu Jan 05 20:37:53.598050 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return super().dispatch(request, *args, **kwargs)
+[Thu Jan 05 20:37:53.598052 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/base.py", line 142, in dispatch
+[Thu Jan 05 20:37:53.598053 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return handler(request, *args, **kwargs)
+[Thu Jan 05 20:37:53.598054 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/edit.py", line 153, in post
+[Thu Jan 05 20:37:53.598056 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return self.form_valid(form)
+[Thu Jan 05 20:37:53.598057 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/auth/views.py", line 109, in form_valid
+[Thu Jan 05 20:37:53.598061 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     auth_login(self.request, form.get_user())
+[Thu Jan 05 20:37:53.598062 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 118, in login
+[Thu Jan 05 20:37:53.598063 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     request.session.cycle_key()
+[Thu Jan 05 20:37:53.598065 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 304, in cycle_key
+[Thu Jan 05 20:37:53.598066 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     self.create()
+[Thu Jan 05 20:37:53.598068 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+[Thu Jan 05 20:37:53.598069 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     self.save(must_create=True)
+[Thu Jan 05 20:37:53.598070 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 86, in save
+[Thu Jan 05 20:37:53.598072 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     obj.save(
+[Thu Jan 05 20:37:53.598073 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/base.py", line 812, in save
+[Thu Jan 05 20:37:53.598075 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     self.save_base(
+[Thu Jan 05 20:37:53.598076 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/base.py", line 863, in save_base
+[Thu Jan 05 20:37:53.598077 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     updated = self._save_table(
+[Thu Jan 05 20:37:53.598079 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/base.py", line 1006, in _save_table
+[Thu Jan 05 20:37:53.598080 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     results = self._do_insert(
+[Thu Jan 05 20:37:53.598081 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/base.py", line 1047, in _do_insert
+[Thu Jan 05 20:37:53.598083 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return manager._insert(
+[Thu Jan 05 20:37:53.598084 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+[Thu Jan 05 20:37:53.598086 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Thu Jan 05 20:37:53.598087 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1791, in _insert
+[Thu Jan 05 20:37:53.598088 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return query.get_compiler(using=using).execute_sql(returning_fields)
+[Thu Jan 05 20:37:53.598090 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+[Thu Jan 05 20:37:53.598093 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     cursor.execute(sql, params)
+[Thu Jan 05 20:37:53.598095 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 103, in execute
+[Thu Jan 05 20:37:53.598096 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return super().execute(sql, params)
+[Thu Jan 05 20:37:53.598097 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+[Thu Jan 05 20:37:53.598099 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return self._execute_with_wrappers(
+[Thu Jan 05 20:37:53.598100 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+[Thu Jan 05 20:37:53.598102 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return executor(sql, params, many, context)
+[Thu Jan 05 20:37:53.598103 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+[Thu Jan 05 20:37:53.598104 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return self.cursor.execute(sql, params)
+[Thu Jan 05 20:37:53.598106 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+[Thu Jan 05 20:37:53.598107 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Thu Jan 05 20:37:53.598109 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+[Thu Jan 05 20:37:53.598110 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return self.cursor.execute(sql, params)
+[Thu Jan 05 20:37:53.598111 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+[Thu Jan 05 20:37:53.598113 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803]     return Database.Cursor.execute(self, query, params)
+[Thu Jan 05 20:37:53.598114 2023] [wsgi:error] [pid 6298:tid 140673426769664] [remote 211.246.68.92:5803] django.db.utils.OperationalError: attempt to write a readonly database
+Exception ignored in: <function Local.__del__ at 0x7ff1149e7940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7ff1149e7940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
