@@ -1,0 +1,58 @@
+[Thu Jan 05 08:59:49.160687 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410] Invalid HTTP_HOST header: 'holyflex.com'. You may need to add 'holyflex.com' to ALLOWED_HOSTS.
+[Thu Jan 05 08:59:49.160734 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410] Traceback (most recent call last):
+[Thu Jan 05 08:59:49.160737 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 08:59:49.160739 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410]     response = get_response(request)
+[Thu Jan 05 08:59:49.160741 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Thu Jan 05 08:59:49.160745 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410]     response = self.process_request(request)
+[Thu Jan 05 08:59:49.160747 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410]   File "/home/2023api/env/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+[Thu Jan 05 08:59:49.160749 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410]     host = request.get_host()
+[Thu Jan 05 08:59:49.160751 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410]   File "/home/2023api/env/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+[Thu Jan 05 08:59:49.160754 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410]     raise DisallowedHost(msg)
+[Thu Jan 05 08:59:49.160756 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'holyflex.com'. You may need to add 'holyflex.com' to ALLOWED_HOSTS.
+[Thu Jan 05 08:59:49.205075 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 211.246.68.92:4410] Bad Request: /
+[Thu Jan 05 08:59:50.015522 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411] Invalid HTTP_HOST header: 'holyflex.com'. You may need to add 'holyflex.com' to ALLOWED_HOSTS.
+[Thu Jan 05 08:59:50.015555 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411] Traceback (most recent call last):
+[Thu Jan 05 08:59:50.015557 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 08:59:50.015559 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411]     response = get_response(request)
+[Thu Jan 05 08:59:50.015561 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Thu Jan 05 08:59:50.015563 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411]     response = self.process_request(request)
+[Thu Jan 05 08:59:50.015564 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411]   File "/home/2023api/env/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+[Thu Jan 05 08:59:50.015566 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411]     host = request.get_host()
+[Thu Jan 05 08:59:50.015567 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411]   File "/home/2023api/env/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+[Thu Jan 05 08:59:50.015569 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411]     raise DisallowedHost(msg)
+[Thu Jan 05 08:59:50.015570 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'holyflex.com'. You may need to add 'holyflex.com' to ALLOWED_HOSTS.
+[Thu Jan 05 08:59:50.034149 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 211.246.68.92:4411] Bad Request: /favicon.ico
+[Thu Jan 05 09:00:06.646127 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079] Invalid HTTP_HOST header: 'holyflex.com'. You may need to add 'holyflex.com' to ALLOWED_HOSTS.
+[Thu Jan 05 09:00:06.646164 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079] Traceback (most recent call last):
+[Thu Jan 05 09:00:06.646167 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 09:00:06.646170 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079]     response = get_response(request)
+[Thu Jan 05 09:00:06.646173 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Thu Jan 05 09:00:06.646176 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079]     response = self.process_request(request)
+[Thu Jan 05 09:00:06.646179 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079]   File "/home/2023api/env/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+[Thu Jan 05 09:00:06.646181 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079]     host = request.get_host()
+[Thu Jan 05 09:00:06.646184 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079]   File "/home/2023api/env/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+[Thu Jan 05 09:00:06.646187 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079]     raise DisallowedHost(msg)
+[Thu Jan 05 09:00:06.646189 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'holyflex.com'. You may need to add 'holyflex.com' to ALLOWED_HOSTS.
+[Thu Jan 05 09:00:06.665707 2023] [wsgi:error] [pid 1572:tid 139962825762560] [remote 66.249.66.141:64079] Bad Request: /robots.txt
+[Thu Jan 05 09:00:07.478210 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666] Invalid HTTP_HOST header: 'holyflex.com'. You may need to add 'holyflex.com' to ALLOWED_HOSTS.
+[Thu Jan 05 09:00:07.478238 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666] Traceback (most recent call last):
+[Thu Jan 05 09:00:07.478241 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 09:00:07.478244 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666]     response = get_response(request)
+[Thu Jan 05 09:00:07.478246 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/deprecation.py", line 135, in __call__
+[Thu Jan 05 09:00:07.478249 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666]     response = self.process_request(request)
+[Thu Jan 05 09:00:07.478252 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666]   File "/home/2023api/env/lib/python3.8/site-packages/django/middleware/common.py", line 48, in process_request
+[Thu Jan 05 09:00:07.478254 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666]     host = request.get_host()
+[Thu Jan 05 09:00:07.478257 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666]   File "/home/2023api/env/lib/python3.8/site-packages/django/http/request.py", line 148, in get_host
+[Thu Jan 05 09:00:07.478259 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666]     raise DisallowedHost(msg)
+[Thu Jan 05 09:00:07.478262 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'holyflex.com'. You may need to add 'holyflex.com' to ALLOWED_HOSTS.
+[Thu Jan 05 09:00:07.504128 2023] [wsgi:error] [pid 1572:tid 139962716657408] [remote 66.249.66.141:59666] Bad Request: /c/1-default/
+Exception ignored in: <function Local.__del__ at 0x7f4b9aff0b80>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f4b9aff0b80>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Thu Jan 05 18:02:28.191205 2023] [wsgi:error] [pid 1729:tid 140399444322048] [remote 211.246.68.92:4445] Not Found: /static/admin/css/fonts.css
+[Thu Jan 05 18:02:28.359697 2023] [wsgi:error] [pid 1729:tid 140399427536640] [remote 211.246.68.92:4445] Not Found: /favicon.ico

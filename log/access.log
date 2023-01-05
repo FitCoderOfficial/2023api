@@ -1,0 +1,7 @@
+211.246.68.92 - - [05/Jan/2023:08:59:48 +0000] "GET / HTTP/1.1" 400 62447 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+211.246.68.92 - - [05/Jan/2023:08:59:50 +0000] "GET /favicon.ico HTTP/1.1" 400 62394 "http://holyflex.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+66.249.66.141 - - [05/Jan/2023:09:00:06 +0000] "GET /robots.txt HTTP/1.1" 400 61382 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.66.141 - - [05/Jan/2023:09:00:07 +0000] "GET /c/1-default/ HTTP/1.1" 400 62102 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.115 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+211.246.68.92 - - [05/Jan/2023:09:02:27 +0000] "GET / HTTP/1.1" 200 3921 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+211.246.68.92 - - [05/Jan/2023:09:02:28 +0000] "GET /static/admin/css/fonts.css HTTP/1.1" 404 2489 "http://holyflex.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+211.246.68.92 - - [05/Jan/2023:09:02:28 +0000] "GET /favicon.ico HTTP/1.1" 404 2444 "http://holyflex.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
