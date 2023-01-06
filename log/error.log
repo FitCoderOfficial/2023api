@@ -773,3 +773,197 @@ Exception ignored in: <function Local.__del__ at 0x7ff1149e7940>
 Traceback (most recent call last):
   File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
 NameError: name 'TypeError' is not defined
+[Thu Jan 05 20:48:39.969386 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193] Internal Server Error: /admin/login/
+[Thu Jan 05 20:48:39.969433 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193] Traceback (most recent call last):
+[Thu Jan 05 20:48:39.969435 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+[Thu Jan 05 20:48:39.969437 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return self.cursor.execute(sql, params)
+[Thu Jan 05 20:48:39.969439 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+[Thu Jan 05 20:48:39.969450 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return Database.Cursor.execute(self, query, params)
+[Thu Jan 05 20:48:39.969452 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193] sqlite3.OperationalError: attempt to write a readonly database
+[Thu Jan 05 20:48:39.969453 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193] 
+[Thu Jan 05 20:48:39.969454 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193] The above exception was the direct cause of the following exception:
+[Thu Jan 05 20:48:39.969456 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193] 
+[Thu Jan 05 20:48:39.969457 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193] Traceback (most recent call last):
+[Thu Jan 05 20:48:39.969458 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Thu Jan 05 20:48:39.969460 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     response = get_response(request)
+[Thu Jan 05 20:48:39.969461 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Thu Jan 05 20:48:39.969463 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Thu Jan 05 20:48:39.969464 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+[Thu Jan 05 20:48:39.969466 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return bound_method(*args, **kwargs)
+[Thu Jan 05 20:48:39.969467 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+[Thu Jan 05 20:48:39.969468 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     response = view_func(request, *args, **kwargs)
+[Thu Jan 05 20:48:39.969470 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/admin/sites.py", line 441, in login
+[Thu Jan 05 20:48:39.969471 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return LoginView.as_view(**defaults)(request)
+[Thu Jan 05 20:48:39.969472 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+[Thu Jan 05 20:48:39.969474 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return self.dispatch(request, *args, **kwargs)
+[Thu Jan 05 20:48:39.969475 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+[Thu Jan 05 20:48:39.969477 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return bound_method(*args, **kwargs)
+[Thu Jan 05 20:48:39.969479 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+[Thu Jan 05 20:48:39.969480 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return view(request, *args, **kwargs)
+[Thu Jan 05 20:48:39.969481 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+[Thu Jan 05 20:48:39.969485 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return bound_method(*args, **kwargs)
+[Thu Jan 05 20:48:39.969486 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 133, in _wrapped_view
+[Thu Jan 05 20:48:39.969488 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     response = view_func(request, *args, **kwargs)
+[Thu Jan 05 20:48:39.969489 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/decorators.py", line 46, in _wrapper
+[Thu Jan 05 20:48:39.969490 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return bound_method(*args, **kwargs)
+[Thu Jan 05 20:48:39.969492 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/cache.py", line 62, in _wrapped_view_func
+[Thu Jan 05 20:48:39.969493 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     response = view_func(request, *args, **kwargs)
+[Thu Jan 05 20:48:39.969495 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/auth/views.py", line 90, in dispatch
+[Thu Jan 05 20:48:39.969496 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return super().dispatch(request, *args, **kwargs)
+[Thu Jan 05 20:48:39.969497 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/base.py", line 142, in dispatch
+[Thu Jan 05 20:48:39.969499 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return handler(request, *args, **kwargs)
+[Thu Jan 05 20:48:39.969500 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/edit.py", line 153, in post
+[Thu Jan 05 20:48:39.969502 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return self.form_valid(form)
+[Thu Jan 05 20:48:39.969503 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/auth/views.py", line 109, in form_valid
+[Thu Jan 05 20:48:39.969504 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     auth_login(self.request, form.get_user())
+[Thu Jan 05 20:48:39.969506 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 118, in login
+[Thu Jan 05 20:48:39.969507 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     request.session.cycle_key()
+[Thu Jan 05 20:48:39.969508 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 304, in cycle_key
+[Thu Jan 05 20:48:39.969510 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     self.create()
+[Thu Jan 05 20:48:39.969511 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 54, in create
+[Thu Jan 05 20:48:39.969512 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     self.save(must_create=True)
+[Thu Jan 05 20:48:39.969514 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 86, in save
+[Thu Jan 05 20:48:39.969515 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     obj.save(
+[Thu Jan 05 20:48:39.969518 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/base.py", line 812, in save
+[Thu Jan 05 20:48:39.969519 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     self.save_base(
+[Thu Jan 05 20:48:39.969521 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/base.py", line 863, in save_base
+[Thu Jan 05 20:48:39.969522 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     updated = self._save_table(
+[Thu Jan 05 20:48:39.969523 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/base.py", line 1006, in _save_table
+[Thu Jan 05 20:48:39.969525 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     results = self._do_insert(
+[Thu Jan 05 20:48:39.969526 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/base.py", line 1047, in _do_insert
+[Thu Jan 05 20:48:39.969528 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return manager._insert(
+[Thu Jan 05 20:48:39.969529 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+[Thu Jan 05 20:48:39.969530 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Thu Jan 05 20:48:39.969532 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1791, in _insert
+[Thu Jan 05 20:48:39.969533 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return query.get_compiler(using=using).execute_sql(returning_fields)
+[Thu Jan 05 20:48:39.969534 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1660, in execute_sql
+[Thu Jan 05 20:48:39.969536 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     cursor.execute(sql, params)
+[Thu Jan 05 20:48:39.969537 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 103, in execute
+[Thu Jan 05 20:48:39.969539 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return super().execute(sql, params)
+[Thu Jan 05 20:48:39.969540 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+[Thu Jan 05 20:48:39.969541 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return self._execute_with_wrappers(
+[Thu Jan 05 20:48:39.969543 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+[Thu Jan 05 20:48:39.969544 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return executor(sql, params, many, context)
+[Thu Jan 05 20:48:39.969545 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+[Thu Jan 05 20:48:39.969547 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return self.cursor.execute(sql, params)
+[Thu Jan 05 20:48:39.969548 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+[Thu Jan 05 20:48:39.969551 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Thu Jan 05 20:48:39.969552 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+[Thu Jan 05 20:48:39.969554 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return self.cursor.execute(sql, params)
+[Thu Jan 05 20:48:39.969555 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/sqlite3/base.py", line 357, in execute
+[Thu Jan 05 20:48:39.969556 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193]     return Database.Cursor.execute(self, query, params)
+[Thu Jan 05 20:48:39.969558 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6193] django.db.utils.OperationalError: attempt to write a readonly database
+[Thu Jan 05 20:49:27.517058 2023] [wsgi:error] [pid 6715:tid 140340796802816] [remote 211.246.68.92:6224] Not Found: /
+[Thu Jan 05 20:50:13.954885 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6254] Not Found: /api-auth
+[Thu Jan 05 20:50:21.944519 2023] [wsgi:error] [pid 6715:tid 140340796802816] [remote 211.246.68.92:6262] Not Found: /api-auth/
+[Thu Jan 05 20:50:37.997290 2023] [wsgi:error] [pid 6715:tid 140340687697664] [remote 211.246.68.92:6278] Not Found: /accounts/profile/
+[Thu Jan 05 20:52:06.944741 2023] [wsgi:error] [pid 6715:tid 140340796802816] [remote 211.246.68.92:6325] Not Found: /api/accounts/v1/registration
+Exception ignored in: <function Local.__del__ at 0x7fa397d15940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fa397d15940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Thu Jan 05 20:52:40.581874 2023] [wsgi:error] [pid 7397:tid 139762435737344] [remote 211.246.68.92:58839] Method Not Allowed: /api/accounts/v1/registration/
+[Thu Jan 05 20:53:33.178119 2023] [wsgi:error] [pid 7397:tid 139762553235200] [remote 211.246.68.92:6380] Not Found: /api/accounts/v1/
+Exception ignored in: <function Local.__del__ at 0x7f1cf9526940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Thu Jan 05 20:53:53.665055 2023] [wsgi:error] [pid 7529:tid 139954297313024] [remote 211.246.68.92:6395] Not Found: /api/accounts/v1/
+[Thu Jan 05 20:54:00.656040 2023] [wsgi:error] [pid 7529:tid 139954297313024] [remote 211.246.68.92:6403] Method Not Allowed: /api/accounts/v1/login/
+[Thu Jan 05 20:54:24.968968 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 211.246.68.92:6418] Bad Request: /api/accounts/v1/login/
+[Thu Jan 05 21:14:35.207279 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 66.249.77.19:44571] Not Found: /
+[Thu Jan 05 21:15:45.723809 2023] [wsgi:error] [pid 7529:tid 139954297313024] [remote 66.249.77.19:47270] Not Found: /
+[Thu Jan 05 21:15:45.939622 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 66.249.77.19:47270] Not Found: /
+[Thu Jan 05 21:15:46.577512 2023] [wsgi:error] [pid 7529:tid 139954297313024] [remote 66.249.77.23:63233] Not Found: /favicon.ico
+[Thu Jan 05 21:15:48.049345 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 66.249.77.19:47270] Not Found: /favicon.ico
+[Thu Jan 05 21:25:29.284594 2023] [wsgi:error] [pid 7529:tid 139954213385984] [remote 90.156.168.255:15444] Not Found: /wso.php
+[Thu Jan 05 21:25:29.287628 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 90.156.168.255:15448] Not Found: /shell.php
+[Thu Jan 05 21:25:29.287833 2023] [wsgi:error] [pid 7529:tid 139954196600576] [remote 90.156.168.255:15438] Not Found: /bala.php
+[Thu Jan 05 21:25:29.287947 2023] [wsgi:error] [pid 7529:tid 139954188207872] [remote 90.156.168.255:15442] Not Found: /wp-info.php
+[Thu Jan 05 21:25:29.288472 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 90.156.168.255:15446] Not Found: /wsa.php
+[Thu Jan 05 21:25:29.288824 2023] [wsgi:error] [pid 7529:tid 139954297313024] [remote 90.156.168.255:15440] Not Found: /logs.php
+[Thu Jan 05 21:25:29.511150 2023] [wsgi:error] [pid 7529:tid 139954221778688] [remote 90.156.168.255:15442] Not Found: /local.php
+[Thu Jan 05 21:25:29.521413 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 90.156.168.255:15438] Not Found: /alwso.php
+[Thu Jan 05 21:25:29.525978 2023] [wsgi:error] [pid 7529:tid 139954188207872] [remote 90.156.168.255:15444] Not Found: /wp-fox.php
+[Thu Jan 05 21:25:29.528954 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 90.156.168.255:15446] Not Found: /autoload_classmap.php
+[Thu Jan 05 21:25:29.529709 2023] [wsgi:error] [pid 7529:tid 139954213385984] [remote 90.156.168.255:15440] Not Found: /wp-2019.php
+[Thu Jan 05 21:25:29.530397 2023] [wsgi:error] [pid 7529:tid 139954297313024] [remote 90.156.168.255:15448] Not Found: /ffAA531.php
+[Thu Jan 05 21:25:29.734160 2023] [wsgi:error] [pid 7529:tid 139954196600576] [remote 90.156.168.255:15442] Not Found: /l.php
+[Thu Jan 05 21:25:29.745416 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 90.156.168.255:15438] Not Found: /lol.php
+[Thu Jan 05 21:25:29.759502 2023] [wsgi:error] [pid 7529:tid 139954196600576] [remote 90.156.168.255:15440] Not Found: /by.php
+[Thu Jan 05 21:25:29.764629 2023] [wsgi:error] [pid 7529:tid 139954213385984] [remote 90.156.168.255:15446] Not Found: /wp-log.php
+[Thu Jan 05 21:25:29.764851 2023] [wsgi:error] [pid 7529:tid 139954297313024] [remote 90.156.168.255:15444] Not Found: /wp-class.php
+[Thu Jan 05 21:25:29.765242 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 90.156.168.255:15448] Not Found: /oldindex.php
+[Thu Jan 05 21:25:29.777065 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 90.156.168.255:15572] Not Found: /wso112233.php
+[Thu Jan 05 21:25:29.958109 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 90.156.168.255:15442] Not Found: /.wp-back.phP
+[Thu Jan 05 21:25:30.103335 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 90.156.168.255:15634] Not Found: /.wp-themes.php
+[Thu Jan 05 21:39:47.240937 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 23.225.199.250:55563] Not Found: /
+[Fri Jan 06 00:55:45.886306 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 65.21.206.44:36426] Not Found: /
+[Fri Jan 06 01:11:19.991386 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 34.23.21.193:40563] Not Found: /robots.txt
+[Fri Jan 06 01:11:20.428053 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 34.23.21.193:60539] Not Found: /
+[Fri Jan 06 01:11:58.325668 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 207.46.13.145:1216] Not Found: /
+[Fri Jan 06 02:15:19.614138 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 209.124.90.80:46112] Not Found: /wp-login.php
+[Fri Jan 06 02:27:24.810767 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 137.184.89.107:57980] Not Found: /
+[Fri Jan 06 05:04:10.189486 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 46.143.4.3:26772] Not Found: /
+[Fri Jan 06 05:29:04.467994 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 57.128.139.252:63506] Not Found: /adminer.php
+[Fri Jan 06 06:24:36.961859 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 176.9.25.75:50484] Not Found: /robots.txt
+[Fri Jan 06 06:24:37.444725 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 176.9.25.75:50550] Not Found: /sitemap
+[Fri Jan 06 06:24:48.250054 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 176.9.25.75:51366] Not Found: /sitemap.txt
+[Fri Jan 06 06:50:00.267280 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 89.117.20.172:51373] Not Found: /wordpress
+[Fri Jan 06 06:50:00.454593 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 89.117.20.172:51373] Not Found: /
+[Fri Jan 06 06:50:00.635238 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 89.117.20.172:51373] Not Found: /wp
+[Fri Jan 06 06:50:00.834342 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 89.117.20.172:51373] Not Found: /bc
+[Fri Jan 06 06:50:01.003863 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 89.117.20.172:51373] Not Found: /bk
+[Fri Jan 06 06:50:01.188582 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 89.117.20.172:51373] Not Found: /backup
+[Fri Jan 06 06:50:01.357412 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 89.117.20.172:51373] Not Found: /old
+[Fri Jan 06 06:50:01.545518 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 89.117.20.172:51373] Not Found: /new
+[Fri Jan 06 06:50:01.757588 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 89.117.20.172:51373] Not Found: /main
+[Fri Jan 06 06:50:02.040491 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 89.117.20.172:51373] Not Found: /home
+[Fri Jan 06 07:00:08.297901 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 66.249.75.119:41718] Not Found: /robots.txt
+[Fri Jan 06 07:00:08.715683 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 66.249.75.117:50516] Not Found: /c/
+[Fri Jan 06 07:45:08.262115 2023] [wsgi:error] [pid 7529:tid 139954179815168] [remote 66.249.75.115:62985] Not Found: /c/
+[Fri Jan 06 07:52:47.387228 2023] [wsgi:error] [pid 7529:tid 139954204993280] [remote 82.223.1.228:51007] Not Found: /wp-commentin.php
+Exception ignored in: <function Local.__del__ at 0x7f499e28d940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Fri Jan 06 09:35:02.394279 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 42.83.147.34:58500] Not Found: /
+[Fri Jan 06 11:43:12.919181 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 68.69.184.202:25820] Not Found: /robots.txt
+[Fri Jan 06 11:43:13.357869 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 68.69.184.202:32062] Not Found: /
+[Fri Jan 06 14:05:14.154252 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 207.46.13.145:3200] Not Found: /
+[Fri Jan 06 17:51:44.275797 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /
+[Fri Jan 06 17:51:44.493092 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /
+[Fri Jan 06 17:51:44.710117 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:44.927283 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /xmlrpc.php
+[Fri Jan 06 17:51:45.144019 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /
+[Fri Jan 06 17:51:45.361553 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /blog/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:45.597039 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /web/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:45.813943 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:46.031572 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /website/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:46.248591 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /wp/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:46.465630 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /news/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:46.682956 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /2018/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:46.899577 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /2019/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:47.116285 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /shop/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:47.333038 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /wp1/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:47.551365 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /test/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:47.991847 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /wp2/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:48.209144 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /site/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:48.426511 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 159.223.76.138:57788] Not Found: /cms/wp-includes/wlwmanifest.xml
+[Fri Jan 06 17:51:48.643775 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 159.223.76.138:57788] Not Found: /sito/wp-includes/wlwmanifest.xml
+[Fri Jan 06 22:20:22.270334 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 118.235.7.56:6519] Not Found: /
+[Fri Jan 06 22:20:22.772810 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 118.235.7.56:6519] Not Found: /favicon.ico
+[Fri Jan 06 22:20:25.016458 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 178.128.120.99:63585] Not Found: /filemanager/dialog.php
+[Fri Jan 06 22:20:25.443094 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 178.128.120.99:63618] Not Found: /assets/filemanager/dialog.php
+[Fri Jan 06 22:20:47.387117 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 118.235.7.56:6526] Not Found: /api/accounts/v1/
+[Fri Jan 06 22:20:54.916796 2023] [wsgi:error] [pid 20538:tid 139954179815168] [remote 118.235.7.56:6531] Method Not Allowed: /api/accounts/v1/login/
+[Fri Jan 06 22:22:37.432924 2023] [wsgi:error] [pid 20538:tid 139954297313024] [remote 118.235.7.56:6544] Not Found: /api/accounts/login/
+Exception ignored in: <function Local.__del__ at 0x7f499e28e940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Fri Jan 06 22:22:50.176302 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 118.235.7.56:6545] Method Not Allowed: /api/accounts/login/
