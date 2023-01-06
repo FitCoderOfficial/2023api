@@ -967,3 +967,27 @@ Traceback (most recent call last):
   File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
 NameError: name 'TypeError' is not defined
 [Fri Jan 06 22:22:50.176302 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 118.235.7.56:6545] Method Not Allowed: /api/accounts/login/
+[Fri Jan 06 22:29:22.464629 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 54.198.55.229:43242] Not Found: /
+[Fri Jan 06 22:55:38.065500 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 114.107.225.150:60630] Not Found: /
+[Fri Jan 06 23:06:37.533694 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /
+[Fri Jan 06 23:06:37.777927 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /
+[Fri Jan 06 23:06:38.022878 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:38.267586 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /xmlrpc.php
+[Fri Jan 06 23:06:38.511665 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /
+[Fri Jan 06 23:06:38.756153 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /blog/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:39.000321 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /web/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:39.244806 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:39.489440 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /website/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:39.733906 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /wp/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:39.982936 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /news/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:40.227096 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /2018/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:40.471227 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /2019/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:40.721144 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /shop/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:40.965440 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /wp1/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:41.209361 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /test/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:41.693736 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /wp2/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:41.938012 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /site/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:42.181955 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 35.197.242.77:61745] Not Found: /cms/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:06:42.425978 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 35.197.242.77:61745] Not Found: /sito/wp-includes/wlwmanifest.xml
+[Fri Jan 06 23:30:16.241545 2023] [wsgi:error] [pid 35677:tid 139906056886016] [remote 45.33.58.192:62348] Not Found: /wp-content/themes/seotheme/db.php
+[Fri Jan 06 23:58:30.713411 2023] [wsgi:error] [pid 35677:tid 139906174383872] [remote 207.46.13.145:1152] Not Found: /

@@ -25,6 +25,8 @@ INSTALLED_APPS = [
 
     # 새로 추가한 앱
     'accounts',
+    'core',
+    'store',
     # 설치한 라이브러리들
     'drf_yasg',
     'rest_framework',
@@ -118,7 +120,11 @@ STATIC_ROOT = '/home/2023api/public/static'
 STATICFILES_DIRS = [
         BASE_DIR
         ]
-        
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/home/2023api/public/media'
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
@@ -132,7 +138,7 @@ REST_FRAMEWORK = {
                ]
   }
 
-AUTH_USER_MODEL = 'accounts.User'
+AUTH_USER_MODEL = 'core.User'
 
 #JWT 사용 여부
 REST_USE_JWT = True
