@@ -133,9 +133,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 REST_FRAMEWORK = {
-               'DEFAULT_PERMISSION_CLASSES': [
-               'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
-               ]
+               'DEFAULT_PERMISSION_CLASSES': (
+               'rest_framework.permissions.AllowAny',
+               ),
+               'DEFAULT_AUTHENTICATION_CLASSES': (
+                'rest_framework.authentication.TokenAuthentication',
+                ),
   }
 
 AUTH_USER_MODEL = 'core.User'
