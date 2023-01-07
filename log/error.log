@@ -3840,3 +3840,977 @@ Traceback (most recent call last):
   File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
 NameError: name 'TypeError' is not defined
 [Sat Jan 07 21:11:50.252159 2023] [wsgi:error] [pid 2709:tid 139647343740672] [remote 118.235.6.23:11098] Not Found: /api/product/c6db35c3-69db-4d89-91dc-2aab7eff3cc4
+Exception ignored in: <function Local.__del__ at 0x7f022d4e0940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f022d4e0940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f3ecb9fa940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fbd50790940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Sat Jan 07 21:28:41.999588 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 118.235.6.23:11187] Not Found: /api/products/
+[Sat Jan 07 21:37:17.180593 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 37.139.53.81:52780] Not Found: /
+[Sat Jan 07 21:37:17.723833 2023] [wsgi:error] [pid 3539:tid 140336355120896] [remote 37.139.53.81:51124] Not Found: /
+[Sat Jan 07 21:59:47.846517 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403] Internal Server Error: /admin/accounts/address/add/
+[Sat Jan 07 21:59:47.846553 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403] Traceback (most recent call last):
+[Sat Jan 07 21:59:47.846555 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 21:59:47.846557 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     response = get_response(request)
+[Sat Jan 07 21:59:47.846559 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+[Sat Jan 07 21:59:47.846572 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     response = response.render()
+[Sat Jan 07 21:59:47.846574 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+[Sat Jan 07 21:59:47.846576 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     self.content = self.rendered_content
+[Sat Jan 07 21:59:47.846577 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+[Sat Jan 07 21:59:47.846579 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return template.render(context, self._request)
+[Sat Jan 07 21:59:47.846580 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+[Sat Jan 07 21:59:47.846581 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.template.render(context)
+[Sat Jan 07 21:59:47.846583 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+[Sat Jan 07 21:59:47.846584 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self._render(context)
+[Sat Jan 07 21:59:47.846586 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 21:59:47.846587 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.nodelist.render(context)
+[Sat Jan 07 21:59:47.846588 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 21:59:47.846590 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846592 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 21:59:47.846593 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846595 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846596 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846598 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 21:59:47.846599 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return compiled_parent._render(context)
+[Sat Jan 07 21:59:47.846600 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 21:59:47.846602 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.nodelist.render(context)
+[Sat Jan 07 21:59:47.846603 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 21:59:47.846605 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846608 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 21:59:47.846610 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846611 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846612 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846614 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 21:59:47.846615 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return compiled_parent._render(context)
+[Sat Jan 07 21:59:47.846617 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 21:59:47.846618 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.nodelist.render(context)
+[Sat Jan 07 21:59:47.846619 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 21:59:47.846621 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846622 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 21:59:47.846624 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846625 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846627 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846628 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 21:59:47.846629 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     result = block.nodelist.render(context)
+[Sat Jan 07 21:59:47.846631 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 21:59:47.846632 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846634 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 21:59:47.846635 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846637 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846638 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846641 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 21:59:47.846643 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     result = block.nodelist.render(context)
+[Sat Jan 07 21:59:47.846644 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 21:59:47.846645 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846647 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 21:59:47.846648 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846650 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846651 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846653 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 21:59:47.846654 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 21:59:47.846655 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846657 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846658 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 208, in render
+[Sat Jan 07 21:59:47.846660 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return template.render(context)
+[Sat Jan 07 21:59:47.846661 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 177, in render
+[Sat Jan 07 21:59:47.846662 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self._render(context)
+[Sat Jan 07 21:59:47.846664 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 21:59:47.846665 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.nodelist.render(context)
+[Sat Jan 07 21:59:47.846667 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 21:59:47.846668 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846669 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 21:59:47.846671 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846674 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846676 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846677 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 21:59:47.846679 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 21:59:47.846680 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846681 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846683 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 21:59:47.846684 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 21:59:47.846686 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846687 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846688 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 21:59:47.846690 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return nodelist.render(context)
+[Sat Jan 07 21:59:47.846691 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 21:59:47.846693 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846694 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 21:59:47.846696 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846697 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846698 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846700 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 21:59:47.846701 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return nodelist.render(context)
+[Sat Jan 07 21:59:47.846703 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 21:59:47.846704 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846706 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 21:59:47.846709 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 21:59:47.846710 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 21:59:47.846712 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.render(context)
+[Sat Jan 07 21:59:47.846713 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1070, in render
+[Sat Jan 07 21:59:47.846715 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return render_value_in_context(output, context)
+[Sat Jan 07 21:59:47.846716 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1047, in render_value_in_context
+[Sat Jan 07 21:59:47.846717 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     value = str(value)
+[Sat Jan 07 21:59:47.846719 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/html.py", line 419, in <lambda>
+[Sat Jan 07 21:59:47.846720 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     klass.__str__ = lambda self: mark_safe(klass_str(self))
+[Sat Jan 07 21:59:47.846722 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 34, in __str__
+[Sat Jan 07 21:59:47.846723 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return self.as_widget()
+[Sat Jan 07 21:59:47.846724 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 99, in as_widget
+[Sat Jan 07 21:59:47.846726 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return widget.render(
+[Sat Jan 07 21:59:47.846727 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 21:59:47.846729 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 21:59:47.846730 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/admin/widgets.py", line 312, in get_context
+[Sat Jan 07 21:59:47.846732 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     "rendered_widget": self.widget.render(name, value, attrs),
+[Sat Jan 07 21:59:47.846733 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 21:59:47.846734 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 21:59:47.846736 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 734, in get_context
+[Sat Jan 07 21:59:47.846737 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     context = super().get_context(name, value, attrs)
+[Sat Jan 07 21:59:47.846739 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 693, in get_context
+[Sat Jan 07 21:59:47.846742 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     context["widget"]["optgroups"] = self.optgroups(
+[Sat Jan 07 21:59:47.846743 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 633, in optgroups
+[Sat Jan 07 21:59:47.846745 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     for index, (option_value, option_label) in enumerate(self.choices):
+[Sat Jan 07 21:59:47.846746 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1410, in __iter__
+[Sat Jan 07 21:59:47.846747 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     yield self.choice(obj)
+[Sat Jan 07 21:59:47.846749 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1424, in choice
+[Sat Jan 07 21:59:47.846750 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     self.field.label_from_instance(obj),
+[Sat Jan 07 21:59:47.846751 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1510, in label_from_instance
+[Sat Jan 07 21:59:47.846753 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403]     return str(obj)
+[Sat Jan 07 21:59:47.846754 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1403] TypeError: __str__ returned non-string (type NoneType)
+[Sat Jan 07 21:59:50.978587 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1404] Exception ignored in: <generator object cursor_iter at 0x7fa29392b200>
+[Sat Jan 07 21:59:50.978629 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1404] Traceback (most recent call last):
+[Sat Jan 07 21:59:50.978634 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1404]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1934, in cursor_iter
+[Sat Jan 07 21:59:50.979626 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1404]     cursor.close()
+[Sat Jan 07 21:59:50.979650 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1404] sqlite3.ProgrammingError: Cannot operate on a closed database.
+[Sat Jan 07 22:00:04.459381 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405] Internal Server Error: /admin/store/cart/add/
+[Sat Jan 07 22:00:04.459418 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405] Traceback (most recent call last):
+[Sat Jan 07 22:00:04.459420 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 22:00:04.459422 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     response = get_response(request)
+[Sat Jan 07 22:00:04.459423 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+[Sat Jan 07 22:00:04.459425 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     response = response.render()
+[Sat Jan 07 22:00:04.459426 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+[Sat Jan 07 22:00:04.459428 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     self.content = self.rendered_content
+[Sat Jan 07 22:00:04.459429 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+[Sat Jan 07 22:00:04.459440 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return template.render(context, self._request)
+[Sat Jan 07 22:00:04.459441 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+[Sat Jan 07 22:00:04.459443 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.template.render(context)
+[Sat Jan 07 22:00:04.459444 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+[Sat Jan 07 22:00:04.459446 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self._render(context)
+[Sat Jan 07 22:00:04.459447 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:00:04.459448 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.nodelist.render(context)
+[Sat Jan 07 22:00:04.459450 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:00:04.459453 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459454 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:00:04.459456 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459457 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459458 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459460 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:00:04.459461 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return compiled_parent._render(context)
+[Sat Jan 07 22:00:04.459463 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:00:04.459464 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.nodelist.render(context)
+[Sat Jan 07 22:00:04.459465 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:00:04.459467 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459468 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:00:04.459470 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459471 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459475 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459476 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:00:04.459477 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return compiled_parent._render(context)
+[Sat Jan 07 22:00:04.459479 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:00:04.459480 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.nodelist.render(context)
+[Sat Jan 07 22:00:04.459482 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:00:04.459483 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459484 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:00:04.459486 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459488 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459489 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459490 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:00:04.459492 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     result = block.nodelist.render(context)
+[Sat Jan 07 22:00:04.459493 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:00:04.459495 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459496 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:00:04.459498 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459500 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459502 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459503 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:00:04.459505 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     result = block.nodelist.render(context)
+[Sat Jan 07 22:00:04.459506 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:00:04.459508 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459511 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:00:04.459513 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459515 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459516 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459518 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:00:04.459519 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:00:04.459521 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459522 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459523 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 208, in render
+[Sat Jan 07 22:00:04.459525 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return template.render(context)
+[Sat Jan 07 22:00:04.459526 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 177, in render
+[Sat Jan 07 22:00:04.459528 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self._render(context)
+[Sat Jan 07 22:00:04.459529 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:00:04.459530 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.nodelist.render(context)
+[Sat Jan 07 22:00:04.459532 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:00:04.459533 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459535 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:00:04.459536 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459538 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459539 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459540 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:00:04.459542 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:00:04.459545 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459546 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459548 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:00:04.459549 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:00:04.459551 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459552 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459553 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:00:04.459555 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return nodelist.render(context)
+[Sat Jan 07 22:00:04.459556 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:00:04.459558 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459559 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:00:04.459561 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459562 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459563 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459565 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:00:04.459566 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return nodelist.render(context)
+[Sat Jan 07 22:00:04.459568 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:00:04.459569 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459570 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:00:04.459572 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:00:04.459573 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:00:04.459575 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.render(context)
+[Sat Jan 07 22:00:04.459578 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1070, in render
+[Sat Jan 07 22:00:04.459579 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return render_value_in_context(output, context)
+[Sat Jan 07 22:00:04.459580 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1047, in render_value_in_context
+[Sat Jan 07 22:00:04.459582 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     value = str(value)
+[Sat Jan 07 22:00:04.459583 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/html.py", line 419, in <lambda>
+[Sat Jan 07 22:00:04.459585 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     klass.__str__ = lambda self: mark_safe(klass_str(self))
+[Sat Jan 07 22:00:04.459586 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 34, in __str__
+[Sat Jan 07 22:00:04.459588 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return self.as_widget()
+[Sat Jan 07 22:00:04.459589 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 99, in as_widget
+[Sat Jan 07 22:00:04.459591 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return widget.render(
+[Sat Jan 07 22:00:04.459592 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:00:04.459593 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:00:04.459595 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/admin/widgets.py", line 312, in get_context
+[Sat Jan 07 22:00:04.459596 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     "rendered_widget": self.widget.render(name, value, attrs),
+[Sat Jan 07 22:00:04.459598 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:00:04.459599 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:00:04.459600 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 734, in get_context
+[Sat Jan 07 22:00:04.459602 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     context = super().get_context(name, value, attrs)
+[Sat Jan 07 22:00:04.459603 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 693, in get_context
+[Sat Jan 07 22:00:04.459605 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     context["widget"]["optgroups"] = self.optgroups(
+[Sat Jan 07 22:00:04.459606 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 633, in optgroups
+[Sat Jan 07 22:00:04.459608 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     for index, (option_value, option_label) in enumerate(self.choices):
+[Sat Jan 07 22:00:04.459609 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1410, in __iter__
+[Sat Jan 07 22:00:04.459612 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     yield self.choice(obj)
+[Sat Jan 07 22:00:04.459613 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1424, in choice
+[Sat Jan 07 22:00:04.459615 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     self.field.label_from_instance(obj),
+[Sat Jan 07 22:00:04.459616 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1510, in label_from_instance
+[Sat Jan 07 22:00:04.459618 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405]     return str(obj)
+[Sat Jan 07 22:00:04.459619 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1405] TypeError: __str__ returned non-string (type NoneType)
+[Sat Jan 07 22:06:37.202070 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432] Exception ignored in: <generator object cursor_iter at 0x7fa2937d5200>
+[Sat Jan 07 22:06:37.202113 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432] Traceback (most recent call last):
+[Sat Jan 07 22:06:37.202119 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1934, in cursor_iter
+[Sat Jan 07 22:06:37.202490 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     cursor.close()
+[Sat Jan 07 22:06:37.202505 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432] sqlite3.ProgrammingError: Cannot operate on a closed database.
+[Sat Jan 07 22:06:37.314980 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432] Internal Server Error: /admin/accounts/address/add/
+[Sat Jan 07 22:06:37.315009 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432] Traceback (most recent call last):
+[Sat Jan 07 22:06:37.315011 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 22:06:37.315013 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     response = get_response(request)
+[Sat Jan 07 22:06:37.315015 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+[Sat Jan 07 22:06:37.315017 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     response = response.render()
+[Sat Jan 07 22:06:37.315018 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+[Sat Jan 07 22:06:37.315020 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     self.content = self.rendered_content
+[Sat Jan 07 22:06:37.315022 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+[Sat Jan 07 22:06:37.315023 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return template.render(context, self._request)
+[Sat Jan 07 22:06:37.315025 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+[Sat Jan 07 22:06:37.315027 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.template.render(context)
+[Sat Jan 07 22:06:37.315028 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+[Sat Jan 07 22:06:37.315047 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self._render(context)
+[Sat Jan 07 22:06:37.315049 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:06:37.315050 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.nodelist.render(context)
+[Sat Jan 07 22:06:37.315052 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:06:37.315054 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315055 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:06:37.315057 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315058 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315060 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315061 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:06:37.315063 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return compiled_parent._render(context)
+[Sat Jan 07 22:06:37.315064 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:06:37.315065 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.nodelist.render(context)
+[Sat Jan 07 22:06:37.315067 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:06:37.315068 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315070 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:06:37.315071 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315073 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315074 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315075 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:06:37.315077 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return compiled_parent._render(context)
+[Sat Jan 07 22:06:37.315078 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:06:37.315085 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.nodelist.render(context)
+[Sat Jan 07 22:06:37.315087 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:06:37.315088 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315090 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:06:37.315091 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315093 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315094 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315095 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:06:37.315097 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     result = block.nodelist.render(context)
+[Sat Jan 07 22:06:37.315098 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:06:37.315100 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315101 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:06:37.315103 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315104 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315105 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315107 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:06:37.315108 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     result = block.nodelist.render(context)
+[Sat Jan 07 22:06:37.315110 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:06:37.315111 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315112 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:06:37.315114 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315115 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315119 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315120 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:06:37.315122 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:06:37.315123 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315124 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315126 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 208, in render
+[Sat Jan 07 22:06:37.315127 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return template.render(context)
+[Sat Jan 07 22:06:37.315128 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 177, in render
+[Sat Jan 07 22:06:37.315130 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self._render(context)
+[Sat Jan 07 22:06:37.315131 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:06:37.315133 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.nodelist.render(context)
+[Sat Jan 07 22:06:37.315134 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:06:37.315135 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315137 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:06:37.315138 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315140 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315141 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315142 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:06:37.315144 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:06:37.315145 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315147 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315148 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:06:37.315150 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:06:37.315153 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315155 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315156 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:06:37.315158 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return nodelist.render(context)
+[Sat Jan 07 22:06:37.315159 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:06:37.315160 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315162 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:06:37.315163 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315165 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315166 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315168 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:06:37.315169 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return nodelist.render(context)
+[Sat Jan 07 22:06:37.315170 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:06:37.315172 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315173 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:06:37.315175 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:06:37.315176 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:06:37.315177 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.render(context)
+[Sat Jan 07 22:06:37.315179 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1070, in render
+[Sat Jan 07 22:06:37.315180 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return render_value_in_context(output, context)
+[Sat Jan 07 22:06:37.315182 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1047, in render_value_in_context
+[Sat Jan 07 22:06:37.315183 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     value = str(value)
+[Sat Jan 07 22:06:37.315186 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/html.py", line 419, in <lambda>
+[Sat Jan 07 22:06:37.315188 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     klass.__str__ = lambda self: mark_safe(klass_str(self))
+[Sat Jan 07 22:06:37.315189 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 34, in __str__
+[Sat Jan 07 22:06:37.315191 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return self.as_widget()
+[Sat Jan 07 22:06:37.315192 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 99, in as_widget
+[Sat Jan 07 22:06:37.315193 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return widget.render(
+[Sat Jan 07 22:06:37.315195 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:06:37.315196 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:06:37.315197 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/admin/widgets.py", line 312, in get_context
+[Sat Jan 07 22:06:37.315199 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     "rendered_widget": self.widget.render(name, value, attrs),
+[Sat Jan 07 22:06:37.315200 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:06:37.315202 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:06:37.315203 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 734, in get_context
+[Sat Jan 07 22:06:37.315205 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     context = super().get_context(name, value, attrs)
+[Sat Jan 07 22:06:37.315206 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 693, in get_context
+[Sat Jan 07 22:06:37.315207 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     context["widget"]["optgroups"] = self.optgroups(
+[Sat Jan 07 22:06:37.315209 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 633, in optgroups
+[Sat Jan 07 22:06:37.315210 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     for index, (option_value, option_label) in enumerate(self.choices):
+[Sat Jan 07 22:06:37.315212 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1410, in __iter__
+[Sat Jan 07 22:06:37.315213 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     yield self.choice(obj)
+[Sat Jan 07 22:06:37.315214 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1424, in choice
+[Sat Jan 07 22:06:37.315216 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     self.field.label_from_instance(obj),
+[Sat Jan 07 22:06:37.315217 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1510, in label_from_instance
+[Sat Jan 07 22:06:37.315220 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432]     return str(obj)
+[Sat Jan 07 22:06:37.315221 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:1432] TypeError: __str__ returned non-string (type NoneType)
+[Sat Jan 07 22:11:27.126019 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903] Internal Server Error: /admin/store/cart/add/
+[Sat Jan 07 22:11:27.126069 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903] Traceback (most recent call last):
+[Sat Jan 07 22:11:27.126071 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 22:11:27.126073 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     response = get_response(request)
+[Sat Jan 07 22:11:27.126074 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+[Sat Jan 07 22:11:27.126076 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     response = response.render()
+[Sat Jan 07 22:11:27.126078 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+[Sat Jan 07 22:11:27.126080 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     self.content = self.rendered_content
+[Sat Jan 07 22:11:27.126081 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+[Sat Jan 07 22:11:27.126083 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return template.render(context, self._request)
+[Sat Jan 07 22:11:27.126085 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+[Sat Jan 07 22:11:27.126086 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.template.render(context)
+[Sat Jan 07 22:11:27.126088 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+[Sat Jan 07 22:11:27.126090 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self._render(context)
+[Sat Jan 07 22:11:27.126091 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:11:27.126093 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.nodelist.render(context)
+[Sat Jan 07 22:11:27.126094 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:27.126096 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126098 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:27.126100 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126102 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126114 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126116 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:11:27.126117 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return compiled_parent._render(context)
+[Sat Jan 07 22:11:27.126119 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:11:27.126120 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.nodelist.render(context)
+[Sat Jan 07 22:11:27.126121 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:27.126123 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126124 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:27.126126 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126127 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126129 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126130 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:11:27.126131 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return compiled_parent._render(context)
+[Sat Jan 07 22:11:27.126133 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:11:27.126134 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.nodelist.render(context)
+[Sat Jan 07 22:11:27.126136 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:27.126137 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126139 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:27.126140 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126141 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126143 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126144 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:11:27.126148 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     result = block.nodelist.render(context)
+[Sat Jan 07 22:11:27.126149 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:27.126151 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126152 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:27.126154 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126155 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126156 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126158 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:11:27.126159 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     result = block.nodelist.render(context)
+[Sat Jan 07 22:11:27.126161 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:27.126162 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126164 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:27.126165 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126166 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126168 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126169 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:11:27.126171 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:11:27.126172 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126173 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126175 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 208, in render
+[Sat Jan 07 22:11:27.126176 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return template.render(context)
+[Sat Jan 07 22:11:27.126178 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 177, in render
+[Sat Jan 07 22:11:27.126179 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self._render(context)
+[Sat Jan 07 22:11:27.126183 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:11:27.126184 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.nodelist.render(context)
+[Sat Jan 07 22:11:27.126185 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:27.126187 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126188 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:27.126190 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126191 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126193 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126194 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:11:27.126195 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:11:27.126197 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126198 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126199 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:11:27.126201 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:11:27.126202 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126204 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126205 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:11:27.126206 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return nodelist.render(context)
+[Sat Jan 07 22:11:27.126208 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:27.126209 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126211 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:27.126212 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126215 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126217 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126218 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:11:27.126220 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return nodelist.render(context)
+[Sat Jan 07 22:11:27.126221 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:27.126222 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126224 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:27.126225 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:27.126227 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:27.126228 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.render(context)
+[Sat Jan 07 22:11:27.126230 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1070, in render
+[Sat Jan 07 22:11:27.126231 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return render_value_in_context(output, context)
+[Sat Jan 07 22:11:27.126232 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1047, in render_value_in_context
+[Sat Jan 07 22:11:27.126234 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     value = str(value)
+[Sat Jan 07 22:11:27.126235 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/html.py", line 419, in <lambda>
+[Sat Jan 07 22:11:27.126237 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     klass.__str__ = lambda self: mark_safe(klass_str(self))
+[Sat Jan 07 22:11:27.126238 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 34, in __str__
+[Sat Jan 07 22:11:27.126239 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return self.as_widget()
+[Sat Jan 07 22:11:27.126241 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 99, in as_widget
+[Sat Jan 07 22:11:27.126242 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return widget.render(
+[Sat Jan 07 22:11:27.126244 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:11:27.126245 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:11:27.126246 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/admin/widgets.py", line 312, in get_context
+[Sat Jan 07 22:11:27.126249 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     "rendered_widget": self.widget.render(name, value, attrs),
+[Sat Jan 07 22:11:27.126251 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:11:27.126252 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:11:27.126254 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 734, in get_context
+[Sat Jan 07 22:11:27.126255 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     context = super().get_context(name, value, attrs)
+[Sat Jan 07 22:11:27.126256 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 693, in get_context
+[Sat Jan 07 22:11:27.126258 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     context["widget"]["optgroups"] = self.optgroups(
+[Sat Jan 07 22:11:27.126259 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 633, in optgroups
+[Sat Jan 07 22:11:27.126261 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     for index, (option_value, option_label) in enumerate(self.choices):
+[Sat Jan 07 22:11:27.126262 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1410, in __iter__
+[Sat Jan 07 22:11:27.126264 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     yield self.choice(obj)
+[Sat Jan 07 22:11:27.126265 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1424, in choice
+[Sat Jan 07 22:11:27.126266 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     self.field.label_from_instance(obj),
+[Sat Jan 07 22:11:27.126268 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1510, in label_from_instance
+[Sat Jan 07 22:11:27.126269 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903]     return str(obj)
+[Sat Jan 07 22:11:27.126270 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2903] TypeError: __str__ returned non-string (type NoneType)
+[Sat Jan 07 22:11:29.731758 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905] Exception ignored in: <generator object cursor_iter at 0x7fa293a1fa50>
+[Sat Jan 07 22:11:29.731796 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905] Traceback (most recent call last):
+[Sat Jan 07 22:11:29.731802 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1934, in cursor_iter
+[Sat Jan 07 22:11:29.732203 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     cursor.close()
+[Sat Jan 07 22:11:29.732218 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905] sqlite3.ProgrammingError: Cannot operate on a closed database.
+[Sat Jan 07 22:11:29.812733 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905] Internal Server Error: /admin/store/saveditem/add/
+[Sat Jan 07 22:11:29.812761 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905] Traceback (most recent call last):
+[Sat Jan 07 22:11:29.812763 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 22:11:29.812776 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     response = get_response(request)
+[Sat Jan 07 22:11:29.812777 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+[Sat Jan 07 22:11:29.812779 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     response = response.render()
+[Sat Jan 07 22:11:29.812780 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+[Sat Jan 07 22:11:29.812782 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     self.content = self.rendered_content
+[Sat Jan 07 22:11:29.812783 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+[Sat Jan 07 22:11:29.812785 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return template.render(context, self._request)
+[Sat Jan 07 22:11:29.812786 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+[Sat Jan 07 22:11:29.812787 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.template.render(context)
+[Sat Jan 07 22:11:29.812789 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+[Sat Jan 07 22:11:29.812790 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self._render(context)
+[Sat Jan 07 22:11:29.812792 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:11:29.812793 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.nodelist.render(context)
+[Sat Jan 07 22:11:29.812794 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:29.812796 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812797 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:29.812799 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812800 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812802 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812803 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:11:29.812804 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return compiled_parent._render(context)
+[Sat Jan 07 22:11:29.812806 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:11:29.812809 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.nodelist.render(context)
+[Sat Jan 07 22:11:29.812810 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:29.812812 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812813 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:29.812815 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812816 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812817 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812819 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:11:29.812820 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return compiled_parent._render(context)
+[Sat Jan 07 22:11:29.812822 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:11:29.812823 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.nodelist.render(context)
+[Sat Jan 07 22:11:29.812824 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:29.812826 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812827 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:29.812829 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812830 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812832 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812833 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:11:29.812834 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     result = block.nodelist.render(context)
+[Sat Jan 07 22:11:29.812836 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:29.812837 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812839 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:29.812842 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812844 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812845 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812847 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:11:29.812848 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     result = block.nodelist.render(context)
+[Sat Jan 07 22:11:29.812849 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:29.812851 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812852 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:29.812854 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812855 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812856 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812858 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:11:29.812859 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:11:29.812861 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812862 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812863 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 208, in render
+[Sat Jan 07 22:11:29.812865 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return template.render(context)
+[Sat Jan 07 22:11:29.812866 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 177, in render
+[Sat Jan 07 22:11:29.812868 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self._render(context)
+[Sat Jan 07 22:11:29.812869 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:11:29.812870 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.nodelist.render(context)
+[Sat Jan 07 22:11:29.812872 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:29.812873 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812876 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:29.812877 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812879 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812880 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812882 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:11:29.812883 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:11:29.812885 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812886 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812887 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:11:29.812889 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:11:29.812890 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812892 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812893 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:11:29.812894 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return nodelist.render(context)
+[Sat Jan 07 22:11:29.812896 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:29.812897 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812899 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:29.812900 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812901 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812903 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812904 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:11:29.812906 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return nodelist.render(context)
+[Sat Jan 07 22:11:29.812908 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:11:29.812910 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812911 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:11:29.812913 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:11:29.812914 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:11:29.812916 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.render(context)
+[Sat Jan 07 22:11:29.812917 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1070, in render
+[Sat Jan 07 22:11:29.812918 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return render_value_in_context(output, context)
+[Sat Jan 07 22:11:29.812920 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1047, in render_value_in_context
+[Sat Jan 07 22:11:29.812921 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     value = str(value)
+[Sat Jan 07 22:11:29.812923 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/html.py", line 419, in <lambda>
+[Sat Jan 07 22:11:29.812924 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     klass.__str__ = lambda self: mark_safe(klass_str(self))
+[Sat Jan 07 22:11:29.812926 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 34, in __str__
+[Sat Jan 07 22:11:29.812927 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return self.as_widget()
+[Sat Jan 07 22:11:29.812928 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 99, in as_widget
+[Sat Jan 07 22:11:29.812930 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return widget.render(
+[Sat Jan 07 22:11:29.812931 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:11:29.812933 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:11:29.812934 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/admin/widgets.py", line 312, in get_context
+[Sat Jan 07 22:11:29.812935 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     "rendered_widget": self.widget.render(name, value, attrs),
+[Sat Jan 07 22:11:29.812937 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:11:29.812938 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:11:29.812940 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 734, in get_context
+[Sat Jan 07 22:11:29.812946 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     context = super().get_context(name, value, attrs)
+[Sat Jan 07 22:11:29.812947 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 693, in get_context
+[Sat Jan 07 22:11:29.812949 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     context["widget"]["optgroups"] = self.optgroups(
+[Sat Jan 07 22:11:29.812950 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 633, in optgroups
+[Sat Jan 07 22:11:29.812951 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     for index, (option_value, option_label) in enumerate(self.choices):
+[Sat Jan 07 22:11:29.812953 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1410, in __iter__
+[Sat Jan 07 22:11:29.812954 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     yield self.choice(obj)
+[Sat Jan 07 22:11:29.812956 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1424, in choice
+[Sat Jan 07 22:11:29.812957 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     self.field.label_from_instance(obj),
+[Sat Jan 07 22:11:29.812958 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1510, in label_from_instance
+[Sat Jan 07 22:11:29.812960 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905]     return str(obj)
+[Sat Jan 07 22:11:29.812961 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2905] TypeError: __str__ returned non-string (type NoneType)
+[Sat Jan 07 22:14:20.224702 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943] Exception ignored in: <generator object cursor_iter at 0x7fa293b983c0>
+[Sat Jan 07 22:14:20.224750 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943] Traceback (most recent call last):
+[Sat Jan 07 22:14:20.224756 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1934, in cursor_iter
+[Sat Jan 07 22:14:20.225128 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     cursor.close()
+[Sat Jan 07 22:14:20.225145 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943] sqlite3.ProgrammingError: Cannot operate on a closed database.
+[Sat Jan 07 22:14:20.229085 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943] Internal Server Error: /admin/accounts/address/add/
+[Sat Jan 07 22:14:20.229114 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943] Traceback (most recent call last):
+[Sat Jan 07 22:14:20.229116 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 22:14:20.229118 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     response = get_response(request)
+[Sat Jan 07 22:14:20.229120 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+[Sat Jan 07 22:14:20.229121 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     response = response.render()
+[Sat Jan 07 22:14:20.229123 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+[Sat Jan 07 22:14:20.229137 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     self.content = self.rendered_content
+[Sat Jan 07 22:14:20.229139 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+[Sat Jan 07 22:14:20.229140 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return template.render(context, self._request)
+[Sat Jan 07 22:14:20.229141 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+[Sat Jan 07 22:14:20.229143 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.template.render(context)
+[Sat Jan 07 22:14:20.229144 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+[Sat Jan 07 22:14:20.229146 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self._render(context)
+[Sat Jan 07 22:14:20.229147 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:14:20.229149 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.nodelist.render(context)
+[Sat Jan 07 22:14:20.229150 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:14:20.229152 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229153 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:14:20.229155 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229156 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229158 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229159 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:14:20.229161 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return compiled_parent._render(context)
+[Sat Jan 07 22:14:20.229162 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:14:20.229163 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.nodelist.render(context)
+[Sat Jan 07 22:14:20.229165 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:14:20.229166 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229168 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:14:20.229171 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229173 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229174 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229176 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+[Sat Jan 07 22:14:20.229177 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return compiled_parent._render(context)
+[Sat Jan 07 22:14:20.229179 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:14:20.229180 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.nodelist.render(context)
+[Sat Jan 07 22:14:20.229181 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:14:20.229183 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229184 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:14:20.229186 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229187 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229189 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229190 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:14:20.229191 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     result = block.nodelist.render(context)
+[Sat Jan 07 22:14:20.229193 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:14:20.229194 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229196 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:14:20.229197 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229198 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229200 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229201 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+[Sat Jan 07 22:14:20.229204 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     result = block.nodelist.render(context)
+[Sat Jan 07 22:14:20.229206 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:14:20.229207 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229208 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:14:20.229210 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229211 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229213 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229214 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:14:20.229216 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:14:20.229217 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229218 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229220 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/loader_tags.py", line 208, in render
+[Sat Jan 07 22:14:20.229221 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return template.render(context)
+[Sat Jan 07 22:14:20.229223 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 177, in render
+[Sat Jan 07 22:14:20.229224 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self._render(context)
+[Sat Jan 07 22:14:20.229225 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+[Sat Jan 07 22:14:20.229227 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.nodelist.render(context)
+[Sat Jan 07 22:14:20.229228 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:14:20.229230 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229231 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:14:20.229232 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229234 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229246 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229248 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:14:20.229249 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:14:20.229251 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229252 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229253 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+[Sat Jan 07 22:14:20.229255 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     nodelist.append(node.render_annotated(context))
+[Sat Jan 07 22:14:20.229256 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229258 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229259 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:14:20.229261 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return nodelist.render(context)
+[Sat Jan 07 22:14:20.229262 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:14:20.229263 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229265 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:14:20.229266 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229268 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229269 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229270 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/defaulttags.py", line 322, in render
+[Sat Jan 07 22:14:20.229272 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return nodelist.render(context)
+[Sat Jan 07 22:14:20.229273 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in render
+[Sat Jan 07 22:14:20.229275 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229276 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1005, in <listcomp>
+[Sat Jan 07 22:14:20.229277 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return SafeString("".join([node.render_annotated(context) for node in self]))
+[Sat Jan 07 22:14:20.229280 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 966, in render_annotated
+[Sat Jan 07 22:14:20.229282 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.render(context)
+[Sat Jan 07 22:14:20.229283 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1070, in render
+[Sat Jan 07 22:14:20.229285 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return render_value_in_context(output, context)
+[Sat Jan 07 22:14:20.229286 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/base.py", line 1047, in render_value_in_context
+[Sat Jan 07 22:14:20.229288 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     value = str(value)
+[Sat Jan 07 22:14:20.229289 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/html.py", line 419, in <lambda>
+[Sat Jan 07 22:14:20.229290 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     klass.__str__ = lambda self: mark_safe(klass_str(self))
+[Sat Jan 07 22:14:20.229292 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 34, in __str__
+[Sat Jan 07 22:14:20.229293 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return self.as_widget()
+[Sat Jan 07 22:14:20.229295 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/boundfield.py", line 99, in as_widget
+[Sat Jan 07 22:14:20.229296 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return widget.render(
+[Sat Jan 07 22:14:20.229297 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:14:20.229299 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:14:20.229300 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/contrib/admin/widgets.py", line 312, in get_context
+[Sat Jan 07 22:14:20.229302 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     "rendered_widget": self.widget.render(name, value, attrs),
+[Sat Jan 07 22:14:20.229303 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 280, in render
+[Sat Jan 07 22:14:20.229304 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     context = self.get_context(name, value, attrs)
+[Sat Jan 07 22:14:20.229306 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 734, in get_context
+[Sat Jan 07 22:14:20.229307 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     context = super().get_context(name, value, attrs)
+[Sat Jan 07 22:14:20.229309 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 693, in get_context
+[Sat Jan 07 22:14:20.229310 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     context["widget"]["optgroups"] = self.optgroups(
+[Sat Jan 07 22:14:20.229311 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/widgets.py", line 633, in optgroups
+[Sat Jan 07 22:14:20.229315 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     for index, (option_value, option_label) in enumerate(self.choices):
+[Sat Jan 07 22:14:20.229316 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1410, in __iter__
+[Sat Jan 07 22:14:20.229318 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     yield self.choice(obj)
+[Sat Jan 07 22:14:20.229319 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1424, in choice
+[Sat Jan 07 22:14:20.229321 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     self.field.label_from_instance(obj),
+[Sat Jan 07 22:14:20.229322 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]   File "/home/2023api/env/lib/python3.8/site-packages/django/forms/models.py", line 1510, in label_from_instance
+[Sat Jan 07 22:14:20.229323 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943]     return str(obj)
+[Sat Jan 07 22:14:20.229325 2023] [wsgi:error] [pid 3539:tid 140336472618752] [remote 39.7.25.241:2943] TypeError: __str__ returned non-string (type NoneType)
+Exception ignored in: <generator object cursor_iter at 0x7fa2937d5cf0>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1934, in cursor_iter
+  File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 23, in __getattr__
+NameError: name 'getattr' is not defined
+Exception ignored in: <generator object cursor_iter at 0x7fa2937d5740>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1934, in cursor_iter
+  File "/home/2023api/env/lib/python3.8/site-packages/django/db/backends/utils.py", line 23, in __getattr__
+NameError: name 'getattr' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fa299953940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fa299953940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7faf2c7d1940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7faf2c7d1940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fca36747940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Sat Jan 07 22:43:25.366964 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 40.77.167.32:1088] Not Found: /robots.txt
+[Sat Jan 07 22:43:30.011305 2023] [wsgi:error] [pid 5053:tid 140179303798528] [remote 207.46.13.145:2944] Not Found: /
+[Sat Jan 07 22:43:30.587663 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12433] Not Found: /api/category
+[Sat Jan 07 22:44:01.492546 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443] Internal Server Error: /api/categories/5746754c-0ef9-41c1-b911-45f59a4523cb
+[Sat Jan 07 22:44:01.492581 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443] Traceback (most recent call last):
+[Sat Jan 07 22:44:01.492596 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 22:44:01.492598 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     response = get_response(request)
+[Sat Jan 07 22:44:01.492599 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Sat Jan 07 22:44:01.492601 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Sat Jan 07 22:44:01.492602 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Sat Jan 07 22:44:01.492604 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     return view_func(*args, **kwargs)
+[Sat Jan 07 22:44:01.492606 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+[Sat Jan 07 22:44:01.492607 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     return self.dispatch(request, *args, **kwargs)
+[Sat Jan 07 22:44:01.492609 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+[Sat Jan 07 22:44:01.492610 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     response = self.handle_exception(exc)
+[Sat Jan 07 22:44:01.492611 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Sat Jan 07 22:44:01.492613 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     self.raise_uncaught_exception(exc)
+[Sat Jan 07 22:44:01.492614 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Sat Jan 07 22:44:01.492616 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     raise exc
+[Sat Jan 07 22:44:01.492617 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+[Sat Jan 07 22:44:01.492618 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     response = handler(request, *args, **kwargs)
+[Sat Jan 07 22:44:01.492620 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/store/api/views.py", line 58, in get
+[Sat Jan 07 22:44:01.492621 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     category = get_object_or_404(Category, id=pk)
+[Sat Jan 07 22:44:01.492623 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+[Sat Jan 07 22:44:01.492624 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     return queryset.get(*args, **kwargs)
+[Sat Jan 07 22:44:01.492625 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 636, in get
+[Sat Jan 07 22:44:01.492627 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+[Sat Jan 07 22:44:01.492628 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1421, in filter
+[Sat Jan 07 22:44:01.492632 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     return self._filter_or_exclude(False, args, kwargs)
+[Sat Jan 07 22:44:01.492634 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+[Sat Jan 07 22:44:01.492635 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     clone._filter_or_exclude_inplace(negate, args, kwargs)
+[Sat Jan 07 22:44:01.492636 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+[Sat Jan 07 22:44:01.492638 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     self._query.add_q(Q(*args, **kwargs))
+[Sat Jan 07 22:44:01.492639 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+[Sat Jan 07 22:44:01.492641 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     clause, _ = self._add_q(q_object, self.used_aliases)
+[Sat Jan 07 22:44:01.492642 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+[Sat Jan 07 22:44:01.492643 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     child_clause, needed_inner = self.build_filter(
+[Sat Jan 07 22:44:01.492645 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+[Sat Jan 07 22:44:01.492646 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+[Sat Jan 07 22:44:01.492648 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+[Sat Jan 07 22:44:01.492649 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+[Sat Jan 07 22:44:01.492650 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+[Sat Jan 07 22:44:01.492652 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443]     raise FieldError(
+[Sat Jan 07 22:44:01.492653 2023] [wsgi:error] [pid 5053:tid 140179287013120] [remote 39.7.25.241:12443] django.core.exceptions.FieldError: Cannot resolve keyword 'id' into field. Choices are: category_id, featured_product, featured_product_id, icon, products, slug, title
+Exception ignored in: <function Local.__del__ at 0x7f7e01975940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f7e01975940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Sat Jan 07 22:46:03.679524 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462] Internal Server Error: /api/categories/5746754c-0ef9-41c1-b911-45f59a4523cb
+[Sat Jan 07 22:46:03.679566 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462] Traceback (most recent call last):
+[Sat Jan 07 22:46:03.679569 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 22:46:03.679583 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     response = get_response(request)
+[Sat Jan 07 22:46:03.679585 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Sat Jan 07 22:46:03.679586 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Sat Jan 07 22:46:03.679588 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Sat Jan 07 22:46:03.679589 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     return view_func(*args, **kwargs)
+[Sat Jan 07 22:46:03.679591 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+[Sat Jan 07 22:46:03.679593 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     return self.dispatch(request, *args, **kwargs)
+[Sat Jan 07 22:46:03.679594 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+[Sat Jan 07 22:46:03.679596 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     response = self.handle_exception(exc)
+[Sat Jan 07 22:46:03.679597 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Sat Jan 07 22:46:03.679599 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     self.raise_uncaught_exception(exc)
+[Sat Jan 07 22:46:03.679600 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Sat Jan 07 22:46:03.679602 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     raise exc
+[Sat Jan 07 22:46:03.679603 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+[Sat Jan 07 22:46:03.679604 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     response = handler(request, *args, **kwargs)
+[Sat Jan 07 22:46:03.679606 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/store/api/views.py", line 58, in get
+[Sat Jan 07 22:46:03.679607 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     category = get_object_or_404(Category, id=pk)
+[Sat Jan 07 22:46:03.679609 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+[Sat Jan 07 22:46:03.679610 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     return queryset.get(*args, **kwargs)
+[Sat Jan 07 22:46:03.679612 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 636, in get
+[Sat Jan 07 22:46:03.679613 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+[Sat Jan 07 22:46:03.679615 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1421, in filter
+[Sat Jan 07 22:46:03.679618 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     return self._filter_or_exclude(False, args, kwargs)
+[Sat Jan 07 22:46:03.679619 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+[Sat Jan 07 22:46:03.679620 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     clone._filter_or_exclude_inplace(negate, args, kwargs)
+[Sat Jan 07 22:46:03.679623 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+[Sat Jan 07 22:46:03.679624 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     self._query.add_q(Q(*args, **kwargs))
+[Sat Jan 07 22:46:03.679625 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+[Sat Jan 07 22:46:03.679627 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     clause, _ = self._add_q(q_object, self.used_aliases)
+[Sat Jan 07 22:46:03.679628 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+[Sat Jan 07 22:46:03.679630 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     child_clause, needed_inner = self.build_filter(
+[Sat Jan 07 22:46:03.679631 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+[Sat Jan 07 22:46:03.679632 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+[Sat Jan 07 22:46:03.679634 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+[Sat Jan 07 22:46:03.679635 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+[Sat Jan 07 22:46:03.679637 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+[Sat Jan 07 22:46:03.679638 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462]     raise FieldError(
+[Sat Jan 07 22:46:03.679640 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12462] django.core.exceptions.FieldError: Cannot resolve keyword 'id' into field. Choices are: category_id, featured_product, featured_product_id, icon, products, slug, title
+[Sat Jan 07 22:53:56.420209 2023] [wsgi:error] [pid 5264:tid 140141632874240] [remote 39.7.25.241:12474] Not Found: /api/1
+[Sat Jan 07 22:54:11.301171 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479] Internal Server Error: /api/categories/5746754c-0ef9-41c1-b911-45f59a4523cb
+[Sat Jan 07 22:54:11.301210 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479] Traceback (most recent call last):
+[Sat Jan 07 22:54:11.301212 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Sat Jan 07 22:54:11.301214 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     response = get_response(request)
+[Sat Jan 07 22:54:11.301216 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Sat Jan 07 22:54:11.301230 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Sat Jan 07 22:54:11.301231 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Sat Jan 07 22:54:11.301233 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     return view_func(*args, **kwargs)
+[Sat Jan 07 22:54:11.301235 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+[Sat Jan 07 22:54:11.301237 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     return self.dispatch(request, *args, **kwargs)
+[Sat Jan 07 22:54:11.301238 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+[Sat Jan 07 22:54:11.301240 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     response = self.handle_exception(exc)
+[Sat Jan 07 22:54:11.301241 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Sat Jan 07 22:54:11.301242 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     self.raise_uncaught_exception(exc)
+[Sat Jan 07 22:54:11.301244 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Sat Jan 07 22:54:11.301245 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     raise exc
+[Sat Jan 07 22:54:11.301247 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+[Sat Jan 07 22:54:11.301248 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     response = handler(request, *args, **kwargs)
+[Sat Jan 07 22:54:11.301250 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/store/api/views.py", line 58, in get
+[Sat Jan 07 22:54:11.301251 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     category = get_object_or_404(Category, id=pk)
+[Sat Jan 07 22:54:11.301252 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/shortcuts.py", line 85, in get_object_or_404
+[Sat Jan 07 22:54:11.301254 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     return queryset.get(*args, **kwargs)
+[Sat Jan 07 22:54:11.301255 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 636, in get
+[Sat Jan 07 22:54:11.301257 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+[Sat Jan 07 22:54:11.301258 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1421, in filter
+[Sat Jan 07 22:54:11.301259 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     return self._filter_or_exclude(False, args, kwargs)
+[Sat Jan 07 22:54:11.301261 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+[Sat Jan 07 22:54:11.301262 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     clone._filter_or_exclude_inplace(negate, args, kwargs)
+[Sat Jan 07 22:54:11.301267 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+[Sat Jan 07 22:54:11.301269 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     self._query.add_q(Q(*args, **kwargs))
+[Sat Jan 07 22:54:11.301270 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+[Sat Jan 07 22:54:11.301271 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     clause, _ = self._add_q(q_object, self.used_aliases)
+[Sat Jan 07 22:54:11.301273 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+[Sat Jan 07 22:54:11.301274 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     child_clause, needed_inner = self.build_filter(
+[Sat Jan 07 22:54:11.301276 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1407, in build_filter
+[Sat Jan 07 22:54:11.301277 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+[Sat Jan 07 22:54:11.301278 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1217, in solve_lookup_type
+[Sat Jan 07 22:54:11.301280 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+[Sat Jan 07 22:54:11.301281 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]   File "/home/2023api/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1709, in names_to_path
+[Sat Jan 07 22:54:11.301283 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479]     raise FieldError(
+[Sat Jan 07 22:54:11.301284 2023] [wsgi:error] [pid 5264:tid 140141750372096] [remote 39.7.25.241:12479] django.core.exceptions.FieldError: Cannot resolve keyword 'id' into field. Choices are: category_id, featured_product, featured_product_id, icon, products, slug, title
+Exception ignored in: <function Local.__del__ at 0x7f75433b9940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f75433b9940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
