@@ -1,6 +1,6 @@
 from itertools import product
 from rest_framework import serializers
-from store.models import Category, Product
+from store.models import Category, Product, Review
 
 
 
@@ -13,9 +13,18 @@ class CategorySerializer(serializers.ModelSerializer):
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
-        fields = [ "id", "name", 'image', "description", "category", "slug", "inventory", "old_price", "price", "top_deal", "flash_sales"]
+        fields = [ "id", "name", 'image', "description", "category", "slug", "inventory", "price", "top_deal", "flash_sales"]
 
     category = CategorySerializer()
     #category = serializers.StringRelatedField()
+
+class ReviewSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Review
+        fields = ['id', 'date_created', 'name', 'image', 'description']
+
+    def create(self, validated_data):
+        product_id = self.context["product_id"]
+        return Review.objects.create(product_id=product_id, **validated_data)
 
 
