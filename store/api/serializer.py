@@ -1,6 +1,6 @@
 from itertools import product
 from rest_framework import serializers
-from store.models import Category, Product, Review
+from store.models import Category, Product, Review, Cart
 
 
 
@@ -28,3 +28,9 @@ class ReviewSerializer(serializers.ModelSerializer):
         return Review.objects.create(product_id=product_id, **validated_data)
 
 
+class CartSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Cart
+        fields = ['owner', 'cart_id', 'created', 'completed', 'session_id']
+
+    

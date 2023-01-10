@@ -1,8 +1,9 @@
-from .serializer import ProductSerializer, CategorySerializer, ReviewSerializer
-from store.models import Category, Product, Review
-from rest_framework.viewsets import ModelViewSet
+from .serializer import ProductSerializer, CategorySerializer, ReviewSerializer, CartSerializer
+from store.models import Category, Product, Review, Cart
+from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.pagination import PageNumberPagination
+from rest_framework.mixins import CreateModelMixin 
 from django_filters.rest_framework import DjangoFilterBackend
 from .filters import ProductFilter
 
@@ -23,9 +24,18 @@ class CategoriesViewSet(ModelViewSet):
 
 
 class ReviewViewSet(ModelViewSet):
-    queryset = Review.objects.all()
     serializer_class = ReviewSerializer
+
+    #해당 게시물에 대한 리뷰만 보여줌
+    def get_queryset(self):
+        return Review.objects.filter(product_id=self.kwargs["product_pk"])
 
     def get_serializer_context(self):
         return {"product_id": self.kwargs["product_pk"]}
         
+
+class CartViewSet(CreateModelMixin, GenericViewSet):
+    queryset = Cart.objects.all()
+    serializer_class = CartSerializer
+
+

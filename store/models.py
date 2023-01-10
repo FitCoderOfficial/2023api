@@ -58,7 +58,7 @@ class Cart(models.Model):
     cart_id = models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True)
     created = models.DateTimeField(auto_now_add=True)
     completed = models.BooleanField(default=False)
-    session_id = models.CharField(max_length=100)
+    session_id = models.CharField(max_length=100, null = True, blank=True)
     
 
     @property

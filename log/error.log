@@ -10625,3 +10625,145 @@ Traceback (most recent call last):
 NameError: name 'TypeError' is not defined
 [Tue Jan 10 17:53:45.358029 2023] [wsgi:error] [pid 43198:tid 139892217104128] [remote 39.7.231.1:4910] /home/2023api/env/lib/python3.8/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'store.models.Review'> QuerySet.
 [Tue Jan 10 17:53:45.358071 2023] [wsgi:error] [pid 43198:tid 139892217104128] [remote 39.7.231.1:4910]   paginator = self.django_paginator_class(queryset, page_size)
+[Tue Jan 10 17:59:30.938818 2023] [wsgi:error] [pid 43198:tid 139892217104128] [remote 39.7.231.1:11414] /home/2023api/env/lib/python3.8/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'store.models.Product'> QuerySet.
+[Tue Jan 10 17:59:30.938854 2023] [wsgi:error] [pid 43198:tid 139892217104128] [remote 39.7.231.1:11414]   paginator = self.django_paginator_class(queryset, page_size)
+Exception ignored in: <function Local.__del__ at 0x7f3b29e41940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f3b29e41940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Jan 10 18:04:13.448725 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440] Internal Server Error: /api/products/1bc5105b-a099-4a98-889d-91518eb22aa3/reviews/
+[Tue Jan 10 18:04:13.448765 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440] Traceback (most recent call last):
+[Tue Jan 10 18:04:13.448767 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Jan 10 18:04:13.448769 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     response = get_response(request)
+[Tue Jan 10 18:04:13.448771 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Tue Jan 10 18:04:13.448773 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Jan 10 18:04:13.448775 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Tue Jan 10 18:04:13.448777 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     return view_func(*args, **kwargs)
+[Tue Jan 10 18:04:13.448778 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+[Tue Jan 10 18:04:13.448780 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     return self.dispatch(request, *args, **kwargs)
+[Tue Jan 10 18:04:13.448782 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+[Tue Jan 10 18:04:13.448783 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     response = self.handle_exception(exc)
+[Tue Jan 10 18:04:13.448785 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Tue Jan 10 18:04:13.448787 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     self.raise_uncaught_exception(exc)
+[Tue Jan 10 18:04:13.448788 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Tue Jan 10 18:04:13.448790 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     raise exc
+[Tue Jan 10 18:04:13.448792 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+[Tue Jan 10 18:04:13.448793 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     response = handler(request, *args, **kwargs)
+[Tue Jan 10 18:04:13.448795 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+[Tue Jan 10 18:04:13.448796 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     queryset = self.filter_queryset(self.get_queryset())
+[Tue Jan 10 18:04:13.448798 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]   File "/home/2023api/store/api/views.py", line 30, in get_queryset
+[Tue Jan 10 18:04:13.448799 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440]     return Review.objects.filter(product_id=self.kwargs["product_id"])
+[Tue Jan 10 18:04:13.448801 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11440] KeyError: 'product_id'
+[Tue Jan 10 18:04:19.693434 2023] [wsgi:error] [pid 43477:tid 140413541480192] [remote 39.7.231.1:11441] /home/2023api/env/lib/python3.8/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'store.models.Product'> QuerySet.
+[Tue Jan 10 18:04:19.694892 2023] [wsgi:error] [pid 43477:tid 140413541480192] [remote 39.7.231.1:11441]   paginator = self.django_paginator_class(queryset, page_size)
+[Tue Jan 10 18:04:36.224224 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446] Internal Server Error: /api/products/1bc5105b-a099-4a98-889d-91518eb22aa3/reviews/
+[Tue Jan 10 18:04:36.224259 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446] Traceback (most recent call last):
+[Tue Jan 10 18:04:36.224261 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Jan 10 18:04:36.224263 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     response = get_response(request)
+[Tue Jan 10 18:04:36.224265 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Tue Jan 10 18:04:36.224266 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Tue Jan 10 18:04:36.224268 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Tue Jan 10 18:04:36.224269 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     return view_func(*args, **kwargs)
+[Tue Jan 10 18:04:36.224271 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+[Tue Jan 10 18:04:36.224273 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     return self.dispatch(request, *args, **kwargs)
+[Tue Jan 10 18:04:36.224274 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+[Tue Jan 10 18:04:36.224276 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     response = self.handle_exception(exc)
+[Tue Jan 10 18:04:36.224277 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Tue Jan 10 18:04:36.224279 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     self.raise_uncaught_exception(exc)
+[Tue Jan 10 18:04:36.224280 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Tue Jan 10 18:04:36.224281 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     raise exc
+[Tue Jan 10 18:04:36.224283 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+[Tue Jan 10 18:04:36.224284 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     response = handler(request, *args, **kwargs)
+[Tue Jan 10 18:04:36.224286 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/mixins.py", line 38, in list
+[Tue Jan 10 18:04:36.224288 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     queryset = self.filter_queryset(self.get_queryset())
+[Tue Jan 10 18:04:36.224289 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]   File "/home/2023api/store/api/views.py", line 30, in get_queryset
+[Tue Jan 10 18:04:36.224308 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446]     return Review.objects.filter(product_id=self.kwargs["product_id"])
+[Tue Jan 10 18:04:36.224310 2023] [wsgi:error] [pid 43477:tid 140413658978048] [remote 39.7.231.1:11446] KeyError: 'product_id'
+Exception ignored in: <function Local.__del__ at 0x7fb4923fa940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fb4923fa940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Jan 10 18:07:30.793793 2023] [wsgi:error] [pid 43694:tid 139803118708480] [remote 39.7.231.1:11468] /home/2023api/env/lib/python3.8/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'store.models.Review'> QuerySet.
+[Tue Jan 10 18:07:30.793837 2023] [wsgi:error] [pid 43694:tid 139803118708480] [remote 39.7.231.1:11468]   paginator = self.django_paginator_class(queryset, page_size)
+[Tue Jan 10 18:07:54.042477 2023] [wsgi:error] [pid 43694:tid 139803135493888] [remote 39.7.231.1:11471] /home/2023api/env/lib/python3.8/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'store.models.Product'> QuerySet.
+[Tue Jan 10 18:07:54.042509 2023] [wsgi:error] [pid 43694:tid 139803135493888] [remote 39.7.231.1:11471]   paginator = self.django_paginator_class(queryset, page_size)
+Exception ignored in: <function Local.__del__ at 0x7f266c36a940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f266c36a940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Jan 10 18:38:54.366970 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958] Not Found: /api/cart
+[Tue Jan 10 18:38:59.487440 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958] Internal Server Error: /api/carts/
+[Tue Jan 10 18:38:59.487473 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958] Traceback (most recent call last):
+[Tue Jan 10 18:38:59.487475 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Tue Jan 10 18:38:59.487477 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     response = get_response(request)
+[Tue Jan 10 18:38:59.487478 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+[Tue Jan 10 18:38:59.487480 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     response = response.render()
+[Tue Jan 10 18:38:59.487482 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+[Tue Jan 10 18:38:59.487484 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     self.content = self.rendered_content
+[Tue Jan 10 18:38:59.487485 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+[Tue Jan 10 18:38:59.487500 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     ret = renderer.render(self.data, accepted_media_type, context)
+[Tue Jan 10 18:38:59.487502 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/renderers.py", line 723, in render
+[Tue Jan 10 18:38:59.487503 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     context = self.get_context(data, accepted_media_type, renderer_context)
+[Tue Jan 10 18:38:59.487505 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/renderers.py", line 654, in get_context
+[Tue Jan 10 18:38:59.487506 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     raw_data_post_form = self.get_raw_data_form(data, view, 'POST', request)
+[Tue Jan 10 18:38:59.487508 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/renderers.py", line 562, in get_raw_data_form
+[Tue Jan 10 18:38:59.487509 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     data = serializer.data.copy()
+[Tue Jan 10 18:38:59.487511 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+[Tue Jan 10 18:38:59.487512 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     ret = super().data
+[Tue Jan 10 18:38:59.487513 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 257, in data
+[Tue Jan 10 18:38:59.487515 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     self._data = self.get_initial()
+[Tue Jan 10 18:38:59.487516 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 405, in get_initial
+[Tue Jan 10 18:38:59.487518 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     for field in self.fields.values()
+[Tue Jan 10 18:38:59.487519 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Tue Jan 10 18:38:59.487520 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     res = instance.__dict__[self.name] = self.func(instance)
+[Tue Jan 10 18:38:59.487522 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 356, in fields
+[Tue Jan 10 18:38:59.487523 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     for key, value in self.get_fields().items():
+[Tue Jan 10 18:38:59.487525 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+[Tue Jan 10 18:38:59.487526 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     field_class, field_kwargs = self.build_field(
+[Tue Jan 10 18:38:59.487527 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1222, in build_field
+[Tue Jan 10 18:38:59.487529 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     return self.build_unknown_field(field_name, model_class)
+[Tue Jan 10 18:38:59.487530 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+[Tue Jan 10 18:38:59.487534 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958]     raise ImproperlyConfigured(
+[Tue Jan 10 18:38:59.487535 2023] [wsgi:error] [pid 44309:tid 140116804916992] [remote 39.7.230.183:10958] django.core.exceptions.ImproperlyConfigured: Field name `id` is not valid for model `Cart`.
+Exception ignored in: <function Local.__del__ at 0x7f6f765e6940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f6f765e6940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Jan 10 18:42:44.289323 2023] [wsgi:error] [pid 44562:tid 140422745360128] [remote 39.7.230.183:11006] Method Not Allowed: /api/carts/
+[Tue Jan 10 18:43:10.588568 2023] [wsgi:error] [pid 44562:tid 140422627862272] [remote 39.7.230.183:11008] Bad Request: /api/carts/
+Exception ignored in: <function Local.__del__ at 0x7fb6b0043940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f87bf94c940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f87bf94c940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f2babf6c940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f2babf6c940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
