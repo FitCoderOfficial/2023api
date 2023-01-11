@@ -31,6 +31,6 @@ class ReviewSerializer(serializers.ModelSerializer):
 class CartSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cart
-        fields = ['owner', 'cart_id', 'created', 'completed', 'session_id']
+        fields = ['owner', 'cart_id', 'created', 'completed', 'session_id', 'items']
 
     

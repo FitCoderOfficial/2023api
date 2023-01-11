@@ -77,7 +77,7 @@ class Cart(models.Model):
         return str(self.cart_id)
 
 class Cartitems(models.Model):
-    cart = models.ForeignKey(Cart, on_delete=models.CASCADE, blank=True, null=True)
+    cart = models.ForeignKey(Cart, on_delete=models.CASCADE, related_name="items", blank=True, null=True)
     product = models.ForeignKey(Product, on_delete=models.CASCADE, blank=True, null=True, related_name='cartitems')
     quantity = models.IntegerField(default=0)
     
@@ -91,7 +91,7 @@ class Cartitems(models.Model):
    
 
 class SavedItem(models.Model):
-    owner = models.ForeignKey(Customer, on_delete=models.CASCADE, null = True, blank=True)
+    owner = models.ForeignKey(Customer, on_delete=models.CASCADE, null = True, blank=True)    
     product = models.ForeignKey(Product, on_delete=models.CASCADE, blank=True, null=True)
     added = models.IntegerField(default=0)
     

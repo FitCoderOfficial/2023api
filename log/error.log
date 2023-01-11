@@ -10767,3 +10767,245 @@ Exception ignored in: <function Local.__del__ at 0x7f2babf6c940>
 Traceback (most recent call last):
   File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
 NameError: name 'TypeError' is not defined
+[Tue Jan 10 19:02:06.043372 2023] [wsgi:error] [pid 45198:tid 139623612667648] [remote 157.55.39.76:1344] Not Found: /
+[Tue Jan 10 19:05:46.274234 2023] [wsgi:error] [pid 45198:tid 139623730165504] [remote 109.106.137.188:61308] Not Found: /
+[Tue Jan 10 19:05:46.851523 2023] [wsgi:error] [pid 45198:tid 139623612667648] [remote 109.106.137.188:61538] Not Found: /
+Exception ignored in: <function Local.__del__ at 0x7efca6d28940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7efca6d28940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Tue Jan 10 21:04:48.833858 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 39.7.230.183:6981] Not Found: /
+[Tue Jan 10 21:04:59.345523 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 39.7.230.183:9326] Method Not Allowed: /api/carts/
+[Tue Jan 10 22:59:53.915985 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 162.142.125.9:59744] Not Found: /
+[Tue Jan 10 23:35:38.515794 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 113.142.141.105:51530] Not Found: /
+[Wed Jan 11 01:58:36.328173 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 184.95.43.187:56220] Not Found: /wp-login.php
+[Wed Jan 11 04:24:57.404193 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 157.55.39.76:1792] Not Found: /
+[Wed Jan 11 04:41:23.311430 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 43.130.147.246:54029] Not Found: /wp-content/plugins/seoplugins/mar.php
+[Wed Jan 11 06:59:52.917977 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /
+[Wed Jan 11 06:59:53.131968 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /
+[Wed Jan 11 06:59:53.345697 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:53.559462 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /xmlrpc.php
+[Wed Jan 11 06:59:53.802599 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /
+[Wed Jan 11 06:59:54.016300 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /blog/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:54.255967 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /web/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:54.469519 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:54.682885 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /website/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:54.912340 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /wp/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:55.125840 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /news/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:55.339481 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /2018/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:55.553265 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /2019/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:55.767155 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /shop/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:55.980188 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /wp1/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:56.195278 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /test/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:56.618284 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /wp2/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:56.831531 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /site/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:57.045073 2023] [wsgi:error] [pid 61433:tid 139964501071616] [remote 206.189.36.174:55578] Not Found: /cms/wp-includes/wlwmanifest.xml
+[Wed Jan 11 06:59:57.258477 2023] [wsgi:error] [pid 61433:tid 139964383573760] [remote 206.189.36.174:55578] Not Found: /sito/wp-includes/wlwmanifest.xml
+Exception ignored in: <function Local.__del__ at 0x7f4bfe59f940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 10:43:17.666283 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /
+[Wed Jan 11 10:43:17.873089 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /
+[Wed Jan 11 10:43:18.079642 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:18.291035 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /xmlrpc.php
+[Wed Jan 11 10:43:18.504220 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /
+[Wed Jan 11 10:43:18.712463 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /blog/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:18.922007 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /web/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:19.128366 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:19.334837 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /website/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:19.540923 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /wp/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:19.750484 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /news/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:19.957178 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /2018/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:20.164662 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /2019/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:20.370970 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /shop/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:20.577073 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /wp1/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:20.783173 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /test/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:21.195606 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /wp2/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:21.401885 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /site/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:21.616880 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:64129] Not Found: /cms/wp-includes/wlwmanifest.xml
+[Wed Jan 11 10:43:21.825611 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:64129] Not Found: /sito/wp-includes/wlwmanifest.xml
+[Wed Jan 11 11:15:54.883729 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 66.249.65.135:34932] Not Found: /robots.txt
+[Wed Jan 11 11:15:55.248276 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 66.249.65.130:42108] Not Found: /c/
+[Wed Jan 11 12:23:03.943314 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 130.255.166.98:17715] Not Found: /robots.txt
+[Wed Jan 11 12:23:04.469505 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 130.255.166.26:19399] Not Found: /humans.txt
+[Wed Jan 11 12:23:04.989003 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 130.255.166.26:7959] Not Found: /ads.txt
+[Wed Jan 11 12:23:05.767309 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 130.255.166.122:59929] Not Found: /
+[Wed Jan 11 13:47:49.709873 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 157.55.39.76:1600] Not Found: /
+[Wed Jan 11 18:32:53.336966 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 74.84.150.150:47708] Not Found: /robots.txt
+[Wed Jan 11 18:32:53.736115 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 74.84.150.150:44414] Not Found: /
+[Wed Jan 11 19:06:32.008458 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /
+[Wed Jan 11 19:06:32.215333 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /
+[Wed Jan 11 19:06:32.421949 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:32.628945 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /xmlrpc.php
+[Wed Jan 11 19:06:32.836116 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /
+[Wed Jan 11 19:06:33.042815 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /blog/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:33.249293 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /web/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:33.456245 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /wordpress/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:33.663788 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /website/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:33.870454 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /wp/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:34.076970 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /news/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:34.284027 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /2018/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:34.490718 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /2019/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:34.697612 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /shop/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:34.904303 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /wp1/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:35.110884 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /test/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:35.520481 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /wp2/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:35.727232 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /site/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:35.934124 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 34.121.53.102:52627] Not Found: /cms/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:06:36.140891 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 34.121.53.102:52627] Not Found: /sito/wp-includes/wlwmanifest.xml
+[Wed Jan 11 19:48:41.057209 2023] [wsgi:error] [pid 67945:tid 139964501071616] [remote 39.7.46.78:9300] Not Found: /
+[Wed Jan 11 19:48:41.591453 2023] [wsgi:error] [pid 67945:tid 139964417144576] [remote 39.7.46.78:9300] Not Found: /favicon.ico
+Exception ignored in: <function Local.__del__ at 0x7f4bfe59f940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 20:17:35.724467 2023] [wsgi:error] [pid 75786:tid 139758565619456] [remote 39.7.46.78:27479] Not Found: /
+Exception ignored in: <function Local.__del__ at 0x7f1c07dac940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 20:18:34.771580 2023] [wsgi:error] [pid 75899:tid 140459774539520] [remote 39.7.46.78:9595] Not Found: /favicon.ico
+Exception ignored in: <function Local.__del__ at 0x7fbf4f29e940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 11:20:26.994641 2023] [ssl:warn] [pid 76001:tid 140398433487936] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 11:20:27.004035 2023] [ssl:warn] [pid 76006:tid 140398433487936] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 20:22:42.101005 2023] [wsgi:error] [pid 76007:tid 140398282450688] [remote 39.7.46.78:9699] Not Found: /favicon.ico
+[Wed Jan 11 20:27:17.194607 2023] [wsgi:error] [pid 76007:tid 140398282450688] [remote 39.7.46.78:9756] Method Not Allowed: /api/carts/
+[Wed Jan 11 20:31:10.324691 2023] [wsgi:error] [pid 76007:tid 140398399948544] [remote 39.7.46.78:9838] Method Not Allowed: /api/carts/
+[Wed Jan 11 20:31:14.392962 2023] [wsgi:error] [pid 76007:tid 140398399948544] [remote 39.7.46.78:9838] Method Not Allowed: /api/carts/
+[Wed Jan 11 20:32:18.901129 2023] [wsgi:error] [pid 76007:tid 140398282450688] [remote 39.7.46.78:9896] Not Found: /api/carts/915b68d3-0787-471b-8f21-2a9a82000adc
+Exception ignored in: <function Local.__del__ at 0x7fb104f3e940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fb104f3e940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 11:34:48.054658 2023] [ssl:warn] [pid 76358:tid 140048339876928] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 11:34:48.064064 2023] [ssl:warn] [pid 76362:tid 140048339876928] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+Exception ignored in: <function Local.__del__ at 0x7f5f81bf6940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f5f81bf6940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 11:39:10.062644 2023] [ssl:warn] [pid 76620:tid 139848000236608] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 11:39:10.071940 2023] [ssl:warn] [pid 76624:tid 139848000236608] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 20:39:13.780521 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986] Internal Server Error: /api/carts/822186eb-e20f-4b3a-9bb0-fffdd0149307/
+[Wed Jan 11 20:39:13.780553 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986] Traceback (most recent call last):
+[Wed Jan 11 20:39:13.780556 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Wed Jan 11 20:39:13.780557 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     response = get_response(request)
+[Wed Jan 11 20:39:13.780559 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Wed Jan 11 20:39:13.780561 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Wed Jan 11 20:39:13.780563 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Wed Jan 11 20:39:13.780564 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     return view_func(*args, **kwargs)
+[Wed Jan 11 20:39:13.780566 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+[Wed Jan 11 20:39:13.780568 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     return self.dispatch(request, *args, **kwargs)
+[Wed Jan 11 20:39:13.780569 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+[Wed Jan 11 20:39:13.780571 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     response = self.handle_exception(exc)
+[Wed Jan 11 20:39:13.780573 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Wed Jan 11 20:39:13.781433 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     self.raise_uncaught_exception(exc)
+[Wed Jan 11 20:39:13.781441 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Wed Jan 11 20:39:13.781443 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     raise exc
+[Wed Jan 11 20:39:13.781444 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+[Wed Jan 11 20:39:13.781446 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     response = handler(request, *args, **kwargs)
+[Wed Jan 11 20:39:13.781447 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/mixins.py", line 56, in retrieve
+[Wed Jan 11 20:39:13.781449 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     return Response(serializer.data)
+[Wed Jan 11 20:39:13.781450 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+[Wed Jan 11 20:39:13.781452 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     ret = super().data
+[Wed Jan 11 20:39:13.781453 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+[Wed Jan 11 20:39:13.781455 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     self._data = self.to_representation(self.instance)
+[Wed Jan 11 20:39:13.781456 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 507, in to_representation
+[Wed Jan 11 20:39:13.781457 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     for field in fields:
+[Wed Jan 11 20:39:13.781459 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+[Wed Jan 11 20:39:13.781460 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     for field in self.fields.values():
+[Wed Jan 11 20:39:13.781462 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Wed Jan 11 20:39:13.781463 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Jan 11 20:39:13.781465 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 356, in fields
+[Wed Jan 11 20:39:13.781466 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     for key, value in self.get_fields().items():
+[Wed Jan 11 20:39:13.781467 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+[Wed Jan 11 20:39:13.781469 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     field_class, field_kwargs = self.build_field(
+[Wed Jan 11 20:39:13.781470 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1222, in build_field
+[Wed Jan 11 20:39:13.781472 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     return self.build_unknown_field(field_name, model_class)
+[Wed Jan 11 20:39:13.781491 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+[Wed Jan 11 20:39:13.781493 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986]     raise ImproperlyConfigured(
+[Wed Jan 11 20:39:13.781495 2023] [wsgi:error] [pid 76625:tid 139847966697216] [remote 39.7.46.78:9986] django.core.exceptions.ImproperlyConfigured: Field name `items` is not valid for model `Cart`.
+Exception ignored in: <function Local.__del__ at 0x7f30dc931940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f30dc931940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 11:39:44.498662 2023] [ssl:warn] [pid 76809:tid 140527850232896] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 11:39:44.508307 2023] [ssl:warn] [pid 76813:tid 140527850232896] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 20:39:48.140544 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997] Internal Server Error: /api/carts/822186eb-e20f-4b3a-9bb0-fffdd0149307/
+[Wed Jan 11 20:39:48.140577 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997] Traceback (most recent call last):
+[Wed Jan 11 20:39:48.140579 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+[Wed Jan 11 20:39:48.140581 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     response = get_response(request)
+[Wed Jan 11 20:39:48.140583 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+[Wed Jan 11 20:39:48.140584 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Wed Jan 11 20:39:48.140586 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Wed Jan 11 20:39:48.140588 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     return view_func(*args, **kwargs)
+[Wed Jan 11 20:39:48.140589 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/viewsets.py", line 125, in view
+[Wed Jan 11 20:39:48.140591 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     return self.dispatch(request, *args, **kwargs)
+[Wed Jan 11 20:39:48.140593 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+[Wed Jan 11 20:39:48.140595 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     response = self.handle_exception(exc)
+[Wed Jan 11 20:39:48.140596 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Wed Jan 11 20:39:48.140598 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     self.raise_uncaught_exception(exc)
+[Wed Jan 11 20:39:48.140599 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Wed Jan 11 20:39:48.140615 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     raise exc
+[Wed Jan 11 20:39:48.140616 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+[Wed Jan 11 20:39:48.140617 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     response = handler(request, *args, **kwargs)
+[Wed Jan 11 20:39:48.140619 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/mixins.py", line 56, in retrieve
+[Wed Jan 11 20:39:48.140620 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     return Response(serializer.data)
+[Wed Jan 11 20:39:48.140622 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 555, in data
+[Wed Jan 11 20:39:48.140623 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     ret = super().data
+[Wed Jan 11 20:39:48.140624 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 253, in data
+[Wed Jan 11 20:39:48.140626 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     self._data = self.to_representation(self.instance)
+[Wed Jan 11 20:39:48.140627 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 507, in to_representation
+[Wed Jan 11 20:39:48.140629 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     for field in fields:
+[Wed Jan 11 20:39:48.140630 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+[Wed Jan 11 20:39:48.140632 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     for field in self.fields.values():
+[Wed Jan 11 20:39:48.140633 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+[Wed Jan 11 20:39:48.140634 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     res = instance.__dict__[self.name] = self.func(instance)
+[Wed Jan 11 20:39:48.140636 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 356, in fields
+[Wed Jan 11 20:39:48.140637 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     for key, value in self.get_fields().items():
+[Wed Jan 11 20:39:48.140639 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1076, in get_fields
+[Wed Jan 11 20:39:48.140640 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     field_class, field_kwargs = self.build_field(
+[Wed Jan 11 20:39:48.140641 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1222, in build_field
+[Wed Jan 11 20:39:48.140643 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     return self.build_unknown_field(field_name, model_class)
+[Wed Jan 11 20:39:48.140644 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]   File "/home/2023api/env/lib/python3.8/site-packages/rest_framework/serializers.py", line 1340, in build_unknown_field
+[Wed Jan 11 20:39:48.140646 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997]     raise ImproperlyConfigured(
+[Wed Jan 11 20:39:48.140650 2023] [wsgi:error] [pid 76814:tid 140527816693504] [remote 39.7.46.78:9997] django.core.exceptions.ImproperlyConfigured: Field name `product` is not valid for model `Cart`.
+Exception ignored in: <function Local.__del__ at 0x7fcf26cac940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fcf26cac940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 11:42:52.482674 2023] [ssl:warn] [pid 77090:tid 139686001675328] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 11:42:52.492351 2023] [ssl:warn] [pid 77097:tid 139686001675328] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+Exception ignored in: <function Local.__del__ at 0x7f0b24b52940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7f0b24b52940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Wed Jan 11 11:45:15.254643 2023] [ssl:warn] [pid 77333:tid 140589553019968] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 11 11:45:15.263920 2023] [ssl:warn] [pid 77337:tid 140589553019968] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
