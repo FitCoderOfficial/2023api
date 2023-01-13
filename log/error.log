@@ -11794,3 +11794,109 @@ NameError: name 'TypeError' is not defined
 [Wed Jan 11 12:11:59.962671 2023] [ssl:warn] [pid 78943:tid 140562779327552] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Jan 11 12:11:59.972058 2023] [ssl:warn] [pid 78947:tid 140562779327552] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Jan 11 21:12:08.511060 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 39.7.46.78:1439] Method Not Allowed: /api/carts/
+[Wed Jan 11 21:29:43.112657 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 157.55.39.76:1536] Not Found: /
+[Wed Jan 11 22:30:52.575344 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 34.76.96.55:47980] Not Found: /
+[Wed Jan 11 22:36:08.172143 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 5.181.80.115:48378] Not Found: /ztp/cgi-bin/handler
+[Wed Jan 11 22:51:38.918119 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 216.218.206.68:53788] Not Found: /
+[Wed Jan 11 23:04:59.291896 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 216.218.206.68:46556] Not Found: /dns-query
+[Wed Jan 11 23:06:09.500128 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 216.218.206.68:7144] Not Found: /
+[Wed Jan 11 23:08:19.631228 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 216.218.206.68:32036] Not Found: /.git/config
+[Thu Jan 12 00:29:46.395299 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 185.180.143.137:59440] Not Found: /
+[Thu Jan 12 01:13:16.326030 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 128.1.248.42:54610] Not Found: /
+[Thu Jan 12 01:21:46.803757 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 104.140.148.74:65063] Not Found: /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+[Thu Jan 12 01:44:18.338286 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 192.241.193.77:58160] Not Found: /actuator/health
+[Thu Jan 12 02:09:17.158469 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 138.246.253.24:48416] Not Found: /robots.txt
+[Thu Jan 12 03:07:20.136688 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 104.140.148.66:63885] Not Found: /owa
+[Thu Jan 12 03:13:06.769957 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 107.170.224.22:58928] Not Found: /owa/auth/logon.aspx
+[Thu Jan 12 04:41:05.106635 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 139.162.238.243:46920] Not Found: /
+[Thu Jan 12 04:55:00.557877 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 183.136.225.32:4374] Not Found: /
+[Thu Jan 12 05:00:37.480113 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 183.136.225.32:57242] Not Found: /
+[Thu Jan 12 05:00:38.253121 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 183.136.225.32:24167] Not Found: /favicon.ico
+[Thu Jan 12 05:00:41.462757 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 183.136.225.32:35671] Not Found: /robots.txt
+[Thu Jan 12 05:20:49.088158 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 137.226.113.44:39070] Not Found: /
+[Thu Jan 12 06:37:30.390010 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 172.174.106.89:64858] Not Found: /wp-plain.php
+[Thu Jan 12 06:37:30.421810 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 172.174.106.89:64975] Not Found: /wp-content/themes/seotheme/db.php
+[Thu Jan 12 06:37:30.694925 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 172.174.106.89:64858] Not Found: /bkgkcigx.php
+[Thu Jan 12 07:29:55.758620 2023] [wsgi:error] [pid 78948:tid 140562628290304] [remote 162.142.125.8:47652] Not Found: /
+[Thu Jan 12 07:29:57.157291 2023] [wsgi:error] [pid 78948:tid 140562745788160] [remote 162.142.125.8:51744] Not Found: /
+Exception ignored in: <function Local.__del__ at 0x7fd748ba7940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fd748ba7940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Thu Jan 12 00:00:25.246190 2023] [ssl:warn] [pid 78947:tid 140562779327552] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 12 09:58:49.363373 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 109.237.97.180:57382] Not Found: /.env
+[Thu Jan 12 10:08:08.825068 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 185.180.143.136:33656] Not Found: /
+[Thu Jan 12 10:16:10.523473 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 167.94.138.46:49932] Not Found: /
+[Thu Jan 12 10:16:11.294409 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 167.94.138.46:36304] Not Found: /
+[Thu Jan 12 14:06:21.487281 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 128.1.248.26:52468] Not Found: /
+[Thu Jan 12 14:34:29.895911 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 157.55.39.76:1536] Not Found: /
+[Thu Jan 12 14:41:58.477805 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 107.170.240.12:36780] Not Found: /
+[Thu Jan 12 16:24:44.827265 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 40.77.167.101:56064] Not Found: /robots.txt
+[Thu Jan 12 16:24:45.391692 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 40.77.167.101:56065] Not Found: /robots.txt
+[Thu Jan 12 16:24:50.773855 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 157.55.39.76:2048] Not Found: /
+[Thu Jan 12 17:01:44.580452 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 185.180.143.5:51048] Not Found: /
+[Thu Jan 12 18:51:54.747565 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 184.105.247.195:53814] Not Found: /
+[Thu Jan 12 19:05:54.148763 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 184.105.247.195:39332] Not Found: /dns-query
+[Thu Jan 12 19:07:06.074080 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 184.105.247.195:26696] Not Found: /
+[Thu Jan 12 19:09:20.677823 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 184.105.247.195:35364] Not Found: /.git/config
+[Thu Jan 12 20:05:23.064826 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 45.86.202.221:8489] Not Found: /.env
+[Thu Jan 12 20:05:27.296400 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 45.86.202.95:59459] Not Found: /
+[Thu Jan 12 20:46:46.177719 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 66.249.65.133:41663] Not Found: /robots.txt
+[Thu Jan 12 20:46:46.707323 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 66.249.65.128:37547] Not Found: /
+[Thu Jan 12 20:49:46.658195 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 79.137.65.46:48175] Not Found: /
+[Thu Jan 12 21:27:14.844010 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 79.137.65.46:55267] Not Found: /
+[Thu Jan 12 21:52:03.810429 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 45.56.108.128:41196] Not Found: /kr2M
+[Thu Jan 12 22:08:39.497373 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 34.78.6.216:41668] Not Found: /
+[Thu Jan 12 22:11:35.909310 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 162.243.135.5:57960] Not Found: /autodiscover/autodiscover.json
+[Thu Jan 12 22:40:27.233714 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 45.56.108.128:39654] Not Found: /kr2M
+[Thu Jan 12 23:01:46.035618 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 66.249.65.133:59882] Not Found: /
+[Fri Jan 13 00:20:44.906559 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 157.55.39.76:2496] Not Found: /
+[Fri Jan 13 01:48:43.232472 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 157.55.39.76:2496] Not Found: /
+[Fri Jan 13 02:00:09.635210 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 185.180.143.6:52174] Not Found: /
+[Fri Jan 13 02:06:20.485757 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 193.56.29.120:62046] Not Found: /.env
+[Fri Jan 13 02:06:21.832638 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 193.56.29.120:62620] Not Found: /
+[Fri Jan 13 03:12:22.526293 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 107.170.239.18:39898] Not Found: /owa/auth/logon.aspx
+[Fri Jan 13 03:23:51.697091 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 23.251.102.74:49644] Not Found: /
+[Fri Jan 13 03:48:04.858689 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 51.195.157.191:44922] Not Found: /
+[Fri Jan 13 04:02:31.906437 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 194.180.49.179:62789] Not Found: /.env
+[Fri Jan 13 04:02:33.277022 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 194.180.49.179:62877] Not Found: /
+[Fri Jan 13 04:19:41.264278 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 192.241.196.4:49796] Not Found: /actuator/health
+[Fri Jan 13 04:37:33.020650 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 128.14.134.134:57892] Not Found: /
+[Fri Jan 13 05:03:12.165884 2023] [wsgi:error] [pid 81789:tid 140562653468416] [remote 194.180.49.179:56492] Not Found: /.env
+[Fri Jan 13 05:03:14.667361 2023] [wsgi:error] [pid 81789:tid 140562645075712] [remote 194.180.49.179:56773] Not Found: /
+Exception ignored in: <function Local.__del__ at 0x7fd748ba7940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Fri Jan 13 00:00:09.108662 2023] [ssl:warn] [pid 78947:tid 140562779327552] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 13 09:47:58.354625 2023] [wsgi:error] [pid 91334:tid 140562712217344] [remote 157.55.39.76:1984] Not Found: /
+[Fri Jan 13 10:25:35.469406 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 23.251.102.74:44660] Not Found: /
+[Fri Jan 13 11:13:26.359202 2023] [wsgi:error] [pid 91334:tid 140562712217344] [remote 157.55.39.76:1600] Not Found: /
+[Fri Jan 13 12:02:30.920569 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 205.210.31.168:59190] Not Found: /
+[Fri Jan 13 13:07:43.431102 2023] [wsgi:error] [pid 91334:tid 140562712217344] [remote 185.180.143.7:54522] Not Found: /
+[Fri Jan 13 13:20:33.282348 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 128.14.134.134:33086] Not Found: /
+[Fri Jan 13 14:11:05.251777 2023] [wsgi:error] [pid 91334:tid 140562712217344] [remote 139.162.238.243:35424] Not Found: /
+[Fri Jan 13 14:42:53.872728 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 94.102.61.8:40934] Not Found: /
+[Fri Jan 13 16:37:08.631180 2023] [wsgi:error] [pid 91334:tid 140562712217344] [remote 138.197.10.120:36568] Not Found: /ab2g
+[Fri Jan 13 16:37:09.420542 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 138.197.10.120:36584] Not Found: /ab2h
+[Fri Jan 13 16:37:16.345072 2023] [wsgi:error] [pid 91334:tid 140562712217344] [remote 138.197.10.120:58582] Not Found: /
+[Fri Jan 13 17:10:08.117960 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 118.235.4.23:8290] Not Found: /favicon.ico
+[Fri Jan 13 17:12:34.967029 2023] [wsgi:error] [pid 91334:tid 140562712217344] [remote 118.235.4.23:8304] Method Not Allowed: /api/carts/
+[Fri Jan 13 17:12:40.836701 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 118.235.4.23:8308] Method Not Allowed: /api/carts/
+[Fri Jan 13 17:12:44.249014 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 118.235.4.23:8308] /home/2023api/env/lib/python3.8/site-packages/rest_framework/pagination.py:200: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'store.models.Product'> QuerySet.
+[Fri Jan 13 17:12:44.249040 2023] [wsgi:error] [pid 91334:tid 140562745788160] [remote 118.235.4.23:8308]   paginator = self.django_paginator_class(queryset, page_size)
+[Fri Jan 13 17:13:05.611885 2023] [wsgi:error] [pid 91334:tid 140562712217344] [remote 118.235.4.23:8327] Not Found: /api/admin
+Exception ignored in: <function Local.__del__ at 0x7fd748ba7940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+Exception ignored in: <function Local.__del__ at 0x7fd748ba7940>
+Traceback (most recent call last):
+  File "/home/2023api/env/lib/python3.8/site-packages/asgiref/local.py", line 94, in __del__
+NameError: name 'TypeError' is not defined
+[Fri Jan 13 08:23:11.022822 2023] [ssl:warn] [pid 106044:tid 140196177189952] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 13 08:23:11.031484 2023] [ssl:warn] [pid 106049:tid 140196177189952] AH01909: holyflex.com:443:0 server certificate does NOT include an ID which matches the server name
