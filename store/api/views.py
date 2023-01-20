@@ -1,5 +1,5 @@
-from .serializer import ProductSerializer, CategorySerializer, ReviewSerializer, CartSerializer
-from store.models import Category, Product, Review, Cart
+from .serializer import ProductSerializer, CategorySerializer, ReviewSerializer, CartSerializer, BannerSerializer
+from store.models import Category, Product, Review, Cart, Banner
 from rest_framework.viewsets import ModelViewSet, GenericViewSet
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.pagination import PageNumberPagination
@@ -7,6 +7,10 @@ from rest_framework.mixins import CreateModelMixin, RetrieveModelMixin
 from django_filters.rest_framework import DjangoFilterBackend
 from .filters import ProductFilter
 
+
+class BannerViewSet(ModelViewSet):
+    queryset = Banner.objects.all()
+    serializer_class = BannerSerializer
 
 class ProductsViewSet(ModelViewSet):
     queryset = Product.objects.all()

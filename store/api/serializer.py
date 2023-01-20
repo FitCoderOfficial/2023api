@@ -1,7 +1,12 @@
 from itertools import product
 from rest_framework import serializers
-from store.models import Category, Product, Review, Cart, Cartitems
+from store.models import Category, Product, Review, Cart, Cartitems, Banner
 
+
+class BannerSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Banner
+        fields = ["title", "image"]
 
 
 class CategorySerializer(serializers.ModelSerializer):

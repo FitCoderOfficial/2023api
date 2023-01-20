@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-f58s^&jw!gdu@!lwn@8ckqhi@9ytb%9ktt!gw4$6--()nk9ei_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*',"holyflex.com",'www.holyflex.com']
 
